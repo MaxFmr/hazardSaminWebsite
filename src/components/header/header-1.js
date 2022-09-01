@@ -60,7 +60,7 @@ function HeaderOne() {
                       }>
                       <Link href='/projects'>
                         <a>
-                          <span>Projets</span>
+                          <span>Nos chantiers</span>
                         </a>
                       </Link>
                     </li>
@@ -87,7 +87,7 @@ function HeaderOne() {
                   <div className='offcanvas-area'>
                     <div className='offcanvas'>
                       <button
-                        className='menu-bars flex text-white text-[24px]'
+                        className='menu-bars flex text-white text-[24px] ml-40'
                         aria-label='Right Align'>
                         <FaBars onClick={showOffcanvas} />
                       </button>

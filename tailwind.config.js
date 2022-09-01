@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#ffe1a0',
+        primary: '#3790cc',
         secondary: '#333333',
         azure: '#eef2f2',
         sky: '#00ccff',

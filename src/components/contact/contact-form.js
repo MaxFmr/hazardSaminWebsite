@@ -5,6 +5,7 @@ import { useRef } from 'react';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { ColorRing } from 'react-loader-spinner';
+import Image from 'next/image';
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 
@@ -44,7 +45,20 @@ function ContactForm() {
       <div className='contact-area md:pt-[145px] pt-[45px] border-[#595959] border-opacity-30 border-b md:pb-160 pb-[60px]'>
         <div className='container'>
           <Modal open={modalIsOpen} onClose={onCloseModal} center>
-            <h2>Simple centered modal</h2>
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                textAlign: 'justify',
+                justifyContent: 'center',
+              }}>
+              <h2>Votre message a bien été envoyé.</h2>
+              <p>
+                Merci pour vôtre intérêt.
+                <br />
+                Nous allons vous recontacter dans les plus brefs délais.{' '}
+              </p>
+            </div>
           </Modal>
 
           <div className='lg:grid lg:grid-cols-5'>

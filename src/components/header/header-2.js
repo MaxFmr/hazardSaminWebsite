@@ -58,7 +58,7 @@ function HeaderTwo() {
                     className={router.pathname == '/projects' ? 'active' : ''}>
                     <Link href='/projects'>
                       <a>
-                        <span>Projets</span>
+                        <span>Nos Chantiers</span>
                       </a>
                     </Link>
                   </li>
@@ -83,7 +83,7 @@ function HeaderTwo() {
               <div className={`outer-box ${headerCss}`}>
                 <div className='offcanvas-area'>
                   <div className='offcanvas'>
-                    <button className='menu-bars flex text-[24px]'>
+                    <button className='menu-bars flex text-[24px] ml-40'>
                       <FaBars onClick={showOffcanvas} />
                     </button>
                   </div>
