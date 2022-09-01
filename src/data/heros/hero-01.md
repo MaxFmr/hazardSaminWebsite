@@ -5,7 +5,7 @@ heroYear: 2022
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 googleIcon: 'FaGoogle'
-heroCategory: Rustic interior <br /> studio
-heroTitle: Rustic and <br /> Modern
+heroCategory: La décoration intérieure <br />
+heroTitle: Peintures et revêtements pour vos murs
 heroContactInfo: contact@Rustictudio.co
 ---

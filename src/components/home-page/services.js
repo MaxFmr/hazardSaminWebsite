@@ -47,11 +47,12 @@ function Services({ services }) {
           <div className='lg:col-span-6'>
             <div className='service-image flex justify-end w-full lg:h-full h-[679px] relative'>
               <Image
-                src='/images/service/1.jpg'
+                src='/images/service/1.png'
                 alt='Service Image'
                 quality={70}
-                layout='fill'
-                objectFit='cover'
+                height={729}
+                width={875}
+                objectFit='contain'
                 priority
               />
             </div>

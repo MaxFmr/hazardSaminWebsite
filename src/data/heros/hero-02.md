@@ -5,7 +5,7 @@ heroYear: 2022
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 googleIcon: 'FaGoogle'
-heroCategory: Rustic interior <br /> studio
-heroTitle: Rustic and <br /> Modern
+heroCategory: Revêtements de sols
+heroTitle: Revêtements de sol
 heroContactInfo: contact@Rustictudio.co
 ---
