@@ -14,9 +14,11 @@
         "export": "next build && next export"
     },
     "dependencies": {
+        "@emailjs/browser": "^3.7.0",
         "cloudinary-build-url": "^0.2.4",
         "clsx": "^1.1.1",
         "disqus-react": "^1.1.2",
+        "emailjs": "^4.0.1",
         "eslint": "^8.5.0",
         "eslint-config-next": "^12.0.7",
         "gray-matter": "^4.0.3",

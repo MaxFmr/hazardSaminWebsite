@@ -10,36 +10,36 @@ import PageBanner from '../components/page-banner/index';
 import Team from '../components/team';
 
 function AboutPage(props) {
-    return (
-        <Fragment>
-            <Head>
-                <title>About</title>
-            </Head>
-            <HeaderOne />
-            <PageBanner />
-            <About />
-            <Services services={props.services} />
-            <Testimonial testimonialItems={props.testimonialItems} />
-            <Brand brandItems={props.brandItems} />
-            <Team teamItems={props.teamItems} />
-        </Fragment>
-    );
+  return (
+    <Fragment>
+      <Head>
+        <title>About</title>
+      </Head>
+      <HeaderOne />
+      {/* <PageBanner /> */}
+      <About />
+      {/* <Services services={props.services} /> */}
+      <Testimonial testimonialItems={props.testimonialItems} />
+      <Brand brandItems={props.brandItems} />
+      <Team teamItems={props.teamItems} />
+    </Fragment>
+  );
 }
 
 export function getStaticProps() {
-    const services = getAllItems('services');
-    const testimonialItems = getAllItems('testimonial');
-    const brandItems = getAllItems('brands');
-    const teamItems = getAllItems('teams');
+  const services = getAllItems('services');
+  const testimonialItems = getAllItems('testimonial');
+  const brandItems = getAllItems('brands');
+  const teamItems = getAllItems('teams');
 
-    return {
-        props: {
-            services,
-            testimonialItems,
-            brandItems,
-            teamItems,
-        },
-    };
+  return {
+    props: {
+      services,
+      testimonialItems,
+      brandItems,
+      teamItems,
+    },
+  };
 }
 
 export default AboutPage;

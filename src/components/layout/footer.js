@@ -22,25 +22,25 @@ function Footer() {
               <div className='footer-widget-item'>
                 <h2 className='title'>Contact</h2>
                 <ul className='contact-info mt-[25px]'>
-                  <li>17 Princess Road, London, Greater London, NW18JR, Uk</li>
+                  <li>7 RUE CHARLES CROS 59300 AULNOY-LEZ-VALENCIENNES</li>
                   <li>
                     <Link href='mailto:hello@Rusticstudio.co'>
                       <a className='hover:text-black transition-all'>
-                        hello@Rusticstudio.co
+                        hazard.samin@gmail.com
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link href='tel:+0084-912-3548-073'>
                       <a className='hover:text-black transition-all'>
-                        (+0084) 912-3548-073
+                        03 27 43 99 70
                       </a>
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className='fixed-lg:col-span-3 fixed-md:col-span-3 fixed-lm:col-span-6 max-sm:pt-[30px]'>
+            {/* <div className='fixed-lg:col-span-3 fixed-md:col-span-3 fixed-lm:col-span-6 max-sm:pt-[30px]'>
               <div className='footer-widget-item'>
                 <h2 className='title'>Quick Links</h2>
                 <ul className='footer-list mt-[25px]'>
@@ -61,48 +61,24 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div className='fixed-lg:col-span-3 fixed-md:col-span-2 fixed-lm:col-span-6 max-sm:pt-[30px]'>
               <div className='footer-widget-item'>
-                <h2 className='title'>Studio</h2>
+                <h2 className='title'>Rubriques</h2>
                 <ul className='footer-list mt-[25px]'>
                   <li>
-                    <Link href='/about'>About</Link>
+                    <Link href='/about'>A propos</Link>
                   </li>
                   <li>
                     <Link href='/contact'>Contact</Link>
                   </li>
                   <li>
-                    <Link href='/about'>Career</Link>
-                  </li>
-                  <li>
-                    <Link href='/posts'>Blog</Link>
+                    <Link href='/projects'>Projets</Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className='fixed-lg:col-span-3 fixed-md:col-span-3 fixed-lm:col-span-6 max-sm:pt-[30px]'>
-              <div className='footer-widget-item'>
-                <h2 className='title'>Help Center</h2>
-                <ul className='footer-list mt-[25px]'>
-                  <li>
-                    <Link href='/about'>FAQs</Link>
-                  </li>
-                  <li>
-                    <Link href='/about'>Terms & Conditions</Link>
-                  </li>
-                  <li>
-                    <Link href='/about'>Privacy Policy</Link>
-                  </li>
-                  <li>
-                    <Link href='/contact'>Help</Link>
-                  </li>
-                  <li>
-                    <Link href='/about'>Services</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <div className='fixed-lg:col-span-3 fixed-md:col-span-3 fixed-lm:col-span-6 max-sm:pt-[30px]'></div>
           </div>
         </div>
       </div>
@@ -122,33 +98,7 @@ function Footer() {
                 </div>
               </div>
               <div className='md:col-span-6'>
-                <ul className='footer-social-link md:mb-0 mb-[10px]'>
-                  <li>
-                    <Link href='https://twitter.com/'>
-                      <a>Twitter</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='https://facebook.com/'>
-                      <a>Facebook</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='https://instagram.com/'>
-                      <a>Instagram</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='https://tumblr.com/'>
-                      <a>Tumblr</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='https://pinterest.com/'>
-                      <a>Pinterest</a>
-                    </Link>
-                  </li>
-                </ul>
+                <ul className='footer-social-link md:mb-0 mb-[10px]'></ul>
               </div>
               <div className='md:col-span-2'></div>
             </div>

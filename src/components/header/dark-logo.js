@@ -8,8 +8,8 @@ function DarkLogo() {
         <Image
           src='/images/logo/logo.svg'
           alt='Logo'
-          width={120}
-          height={120}
+          width={150}
+          height={150}
         />
       </a>
     </Link>

@@ -64,13 +64,13 @@ function HeaderOne() {
                         </a>
                       </Link>
                     </li>
-                    <li className={router.pathname == '/posts' ? 'active' : ''}>
+                    {/* <li className={router.pathname == '/posts' ? 'active' : ''}>
                       <Link href='/posts'>
                         <a>
                           <span>Actu</span>
                         </a>
                       </Link>
-                    </li>
+                    </li> */}
                     <li
                       className={router.pathname == '/contact' ? 'active' : ''}>
                       <Link href='/contact'>
@@ -110,10 +110,10 @@ function HeaderOne() {
                 <Link href='/'>
                   <a>
                     <Image
-                      src='/images/logo/logo-2.png'
+                      src='/images/logo/logo.svg'
                       alt='Logo'
-                      width={70}
-                      height={70}
+                      width={90}
+                      height={90}
                     />
                   </a>
                 </Link>
