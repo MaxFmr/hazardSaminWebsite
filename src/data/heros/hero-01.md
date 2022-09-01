@@ -7,5 +7,5 @@ facebookIcon: 'FaFacebookF'
 googleIcon: 'FaGoogle'
 heroCategory: La décoration intérieure <br />
 heroTitle: Peintures et revêtements pour vos murs
-heroContactInfo: contact@Rustictudio.co
+heroContactInfo: hazard.samin@gmail.com
 ---

@@ -7,5 +7,5 @@ facebookIcon: 'FaFacebookF'
 googleIcon: 'FaGoogle'
 heroCategory: Revêtements de sols
 heroTitle: Revêtements de sol
-heroContactInfo: contact@Rustictudio.co
+heroContactInfo: hazard.samin@gmail.com
 ---
