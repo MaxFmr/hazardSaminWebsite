@@ -1,0 +1,330 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: Rustic - React Business Template
+    Version: 1.0
+-----------------------------------------------------------------------------------
+    
+    INDEX
+    ===================
+	
+    - default
+    - header
+    - hero
+    - services
+    - project
+    - post
+    - pricing tab
+    - testimonial
+    - footer
+    - team
+
+-----------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*  - default
+/*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-container {
+  @apply xl:max-w-full xl:px-[70px] px-[15px];
+}
+input:focus-visible,
+textarea:focus-visible {
+  @apply outline;
+}
+
+@layer base {
+  input,
+  textarea {
+    @apply placeholder:text-[#595959] fixed-xs:text-[14px];
+  }
+}
+
+/*----------------------------------------*/
+/*  - header
+/*----------------------------------------*/
+.main-menu {
+  @apply flex justify-start uppercase leading-8 text-[14px];
+}
+.main-menu li a {
+  @apply block pr-[45px];
+}
+.main-menu li a span {
+  @apply relative block before:absolute before:left-0 before:bottom-0 before:right-0 before:h-[1px] before:opacity-0 before:bg-white before:transform before:scale-x-[0.2] before:transition before:duration-500 hover:before:opacity-100 hover:before:scale-x-100;
+}
+.main-menu li.active a span {
+  @apply before:opacity-100 before:scale-x-100;
+}
+.main-menu .navigation > li > ul {
+  padding: 20px 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-style-2 .main-menu li a span {
+  @apply before:bg-black;
+}
+.is-sticky {
+  @apply fixed transition duration-500 top-0 left-0 w-full z-20;
+}
+.is-sticky .grid {
+  @apply leading-[100px];
+}
+.is-sticky .main-menu li a span {
+  @apply before:bottom-auto before:top-0;
+}
+.is-sticky.sticky-style-1 {
+  @apply bg-[#111111];
+}
+.sticky-style-2 {
+  @apply bg-white border-[#dfdfdf] border-b;
+}
+
+.language-list {
+  @apply flex justify-end items-center uppercase leading-8 text-[14px];
+}
+.language-list li {
+  @apply pr-[45px];
+}
+
+.offcanvas-menu-wrap {
+  @apply before:absolute before:w-0 before:h-full before:top-0 before:right-0 before:bg-black before:z-10 before:opacity-90 before:ease-linear before:duration-[500ms] delay-[300ms];
+}
+.offcanvas-menu-wrap.active {
+  @apply before:w-full before:visible before:opacity-90;
+}
+.offcanvas-menu-wrap .offcanvas-menu {
+  @apply opacity-90 bg-white fixed top-0 right-[-300px] w-[300px] h-full ease-in-out duration-[450ms] delay-[350ms] p-5 z-20;
+}
+.offcanvas-menu-wrap.active .offcanvas-menu {
+  @apply right-0 opacity-100;
+}
+.offcanvas-text {
+  @apply pt-[15px] pb-[15px] border-t last:border-b text-[15px] leading-6 uppercase font-semibold;
+}
+
+/*----------------------------------------*/
+/*  - hero
+/*----------------------------------------*/
+.hero-area .swiper-pagination {
+  @apply !bottom-auto !left-auto xl:!right-[70px] !right-[15px] top-[calc(50%-75px)] !w-auto transform translate-y-1/2 z-[2];
+}
+.hero-area .swiper-pagination .swiper-pagination-bullet-active {
+  @apply !opacity-100;
+}
+.hero-area .swiper-pagination .swiper-pagination-bullet {
+  @apply block !mb-[20px] last:!mb-0 w-[14px] h-[14px] bg-white opacity-30 hover:opacity-100 transition-all;
+}
+
+.mouse-btn-down {
+  @apply h-[68px] w-[30px];
+}
+.chevron {
+  @apply cursor-pointer w-[28px] h-[7px] transition-all opacity-0 absolute before:skew-y-[30deg] before:bg-[#ffe1a0] before:h-full before:w-[51%] before:absolute after:bg-[#ffe1a0] after:absolute after:h-full after:w-[51%] after:right-0 after:skew-y-[-30deg];
+}
+
+.hero-slidedown {
+  @apply relative opacity-0 scale-y-0 origin-top transition duration-1000;
+}
+.swiper-slide-active .hero-slidedown {
+  @apply opacity-100 scale-y-100;
+}
+
+.boxed-btn {
+  @apply relative inline-block text-black py-[15px] px-[40px] overflow-hidden rounded-none bg-primary uppercase z-[2] content-none before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:opacity-0 before:bg-[#262626] before:transition before:duration-[0.4s] before:scale-x-[0.2] before:scale-y-[1] hover:before:opacity-100 hover:before:scale-100 hover:text-white;
+}
+.boxed-outline-btn {
+  @apply relative inline-block text-[14px] leading-[30px] p-[11px_32px] border border-[#969696] uppercase before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:opacity-0 before:bg-primary before:transition before:duration-[0.4s] before:scale-x-[0.2] before:scale-y-[1] hover:before:opacity-100 hover:before:scale-100 hover:border-primary;
+}
+
+/*----------------------------------------*/
+/*  - services
+/*----------------------------------------*/
+.service-box {
+  @apply relative lg:mb-[30px] lg:last:mb-0;
+}
+.service-box .service-box-inner {
+  @apply relative py-[30px] lg:px-[50px] px-[30px] border border-[#d9d9d9] transition duration-[0.5s] before:absolute before:left-[-1px] before:top-0 before:bottom-0 before:w-[5px] before:opacity-0 before:bg-primary before:scale-x-[1] before:scale-y-[0.2] before:transition before:duration-[0.5s] hover:shadow hover:before:opacity-100 hover:before:scale-100;
+}
+.service-box-inner .service-list {
+  @apply relative flex;
+}
+.service-list .icon {
+  @apply w-[65px];
+}
+.service-list .icon svg {
+  @apply text-[54px];
+}
+.service-list > .content {
+  @apply lg:pl-[45px] pl-[30px];
+}
+.service-list > .content .title {
+  @apply text-[20px] leading-[26px] uppercase mb-[10px];
+}
+.service-list .content .desc {
+  @apply text-secondary text-[14px];
+}
+
+/*----------------------------------------*/
+/*  - project
+/*----------------------------------------*/
+.project-area .swiper-container {
+  @apply md:pb-[100px] pb-[75px];
+}
+.project-area .swiper-pagination {
+  @apply !bottom-0;
+}
+.project-area .swiper-pagination .swiper-pagination-bullet {
+  @apply !m-[0_20px_0_0] last:!mr-0 w-[10px] h-[10px] leading-[10px];
+}
+.project-area .swiper-pagination .swiper-pagination-bullet-active {
+  @apply bg-primary;
+}
+
+.project-item {
+  @apply relative before:absolute before:bg-primary before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
+}
+.project-content {
+  @apply absolute left-[40px] bottom-[40px] z-[2];
+}
+.project-category {
+  @apply text-white text-[14px] leading-6 uppercase block mb-[15px] transition duration-500 group-hover:text-black;
+}
+.project-title {
+  @apply text-white text-[36px] leading-[43px] transition duration-500 group-hover:text-black;
+}
+/*----------------------------------------*/
+/*  - post
+/*----------------------------------------*/
+
+.post-share-tags {
+  @apply flex;
+}
+.post-share-tags li a {
+  @apply relative block mr-1 border p-[10px_20px] border-[#595959] border-opacity-50 text-[15px] text-[#595959] transition-all hover:bg-primary hover:border-primary hover:text-[#111111];
+}
+
+/*----------------------------------------*/
+/*  - pricing tab
+/*----------------------------------------*/
+.pricing-tab li {
+  @apply first:mx-5;
+}
+.pricing-tab li span {
+  @apply transition-all hover:text-black;
+}
+.pricing-tab li.active span {
+  @apply text-black;
+}
+.pricing-tab li.monthly .round {
+  @apply relative ml-5 before:transition-all pl-[46px] bg-[#669900] w-[46px] h-[24px] rounded-[50px] pointer-events-none before:absolute before:top-1/2 before:left-[2px] before:translate-y-[-50%] before:translate-x-[24px] before:bg-[#f6f8f4] before:w-[16px] before:h-[16px] before:rounded-[50px];
+}
+.pricing-tab li.monthly.active .round {
+  @apply before:translate-x-0;
+}
+.pricing-content .common {
+  @apply hidden;
+}
+.pricing-content .common.active {
+  @apply block;
+}
+.pricing-item {
+  @apply border-t border-l border-b last:border-r max-md:border-r border-[#e6e9ec] p-[35px_30px_45px_45px] fixed-lg:p-[35px_18px_45px_18px];
+}
+.pricing-item span {
+  @apply block;
+}
+.pricing-item .title {
+  @apply text-[#999999] text-[14px] leading-6 uppercase mb-[15px];
+}
+.pricing-item .price {
+  @apply text-[36px] leading-[47px] text-[#669900] mb-[15px];
+}
+.pricing-item .desc {
+  @apply text-secondary text-[14px] leading-[25px] pb-[25px] mb-[25px] border-dashed border-b;
+}
+.pricing-item .price-list li {
+  @apply flex items-center mb-[15px] last:mb-0;
+}
+.pricing-item .price-list li {
+  @apply flex items-center mb-[15px] last:mb-0;
+}
+.pricing-item .price-list li .icon {
+  @apply text-[#669900] mr-[10px];
+}
+
+/*----------------------------------------*/
+/*  - testimonial
+/*----------------------------------------*/
+.testimonial-area {
+  @apply md:pt-[155px] pt-[55px] md:mt-[155px] mt-[55px];
+}
+.testimonial-title {
+  @apply lm:text-[42px] text-[28px] lm:leading-[50px];
+}
+.testimonial-block {
+  @apply bg-white relative;
+}
+.testimonial-block .inner-box {
+  @apply relative pt-[25px] pb-[35px] px-[25px];
+}
+.testimonial-author {
+  @apply font-heebo font-medium text-[18px] text-[#263a4f] mb-[15px];
+}
+.testimonial-author .occupation {
+  @apply font-heebo font-normal text-[14px] text-[#30373E] ml-1;
+}
+.testimonial-feedback {
+  @apply text-[14px] leading-[25px] text-[#30373E];
+}
+
+/*----------------------------------------*/
+/*  - footer
+/*----------------------------------------*/
+.footer-widget-item .title {
+  @apply xl:text-[30px] text-[20px] leading-[39px];
+}
+.footer-widget-item ul li {
+  @apply text-secondary text-[14px] leading-[24px] uppercase mb-[5px] last:mb-0;
+}
+.footer-list li {
+  @apply duration-300 hover:text-black hover:pl-[15px];
+}
+.footer-widget-item .contact-info li {
+  @apply leading-[27px] mb-[15px] last:mb-0;
+}
+.footer-bottom .copyright {
+  @apply flex items-center;
+}
+.footer-bottom .copyright {
+  @apply flex items-center text-[#30373E] text-[14px] leading-6;
+}
+.footer-bottom .copyright span {
+  @apply text-black font-bold normal-case;
+}
+.footer-social-link {
+  @apply flex justify-center flex-wrap;
+}
+.footer-social-link li {
+  @apply mr-4 last:mr-0;
+}
+.footer-social-link li a {
+  @apply text-[14px] leading-6 uppercase transition-all text-[#30373E] hover:text-sky;
+}
+
+/*----------------------------------------*/
+/*  - team
+/*----------------------------------------*/
+.team-title {
+  @apply text-[24px] leading-[31px] transition-all hover:text-[#caac6b];
+}
+.team-occupation {
+  @apply text-[14px] leading-6 text-secondary;
+}
+
+.page-parallax img {
+  @apply bg-fixed h-[250px];
+}

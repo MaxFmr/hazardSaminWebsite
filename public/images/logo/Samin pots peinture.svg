@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="148.377mm" height="103.991mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 14356 10062"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+   <clipPath id="id0">
+    <rect x="7509" width="6847" height="8364"/>
+   </clipPath>
+   <clipPath id="id1">
+    <rect x="3568" y="2413" width="5310" height="6487"/>
+   </clipPath>
+   <clipPath id="id2">
+    <rect y="3575" width="5310" height="6487"/>
+   </clipPath>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image x="7509" y="0" width="6847" height="8364" xlink:href="Samin pots peinture_Images\Samin pots peinture_ImgID1.png"/>
+  </g>
+  <g style="clip-path:url(#id1)">
+   <image x="3568" y="2413" width="5310" height="6487" xlink:href="Samin pots peinture_Images\Samin pots peinture_ImgID2.png"/>
+  </g>
+  <g style="clip-path:url(#id2)">
+   <image x="0" y="3575" width="5310" height="6487" xlink:href="Samin pots peinture_Images\Samin pots peinture_ImgID3.png"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,36 @@
+{
+    "name": "rustic",
+    "description": "Rustic - React Business Template",
+    "author": "HasTech",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "export": "next build && next export"
+    },
+    "dependencies": {
+        "cloudinary-build-url": "^0.2.4",
+        "clsx": "^1.1.1",
+        "disqus-react": "^1.1.2",
+        "eslint": "^8.5.0",
+        "eslint-config-next": "^12.0.7",
+        "gray-matter": "^4.0.3",
+        "next": "12.0.10",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-icons": "^4.3.1",
+        "react-markdown": "^7.1.1",
+        "swiper": "^6.8.4",
+        "webpack": "^5.53.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.7"
+    }
+}
