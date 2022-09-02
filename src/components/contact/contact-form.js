@@ -23,10 +23,10 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        'service_gsuhee6',
-        'template_ivb58r7',
+        process.env.id,
+        process.env.template,
         form.current,
-        'tnkdCXrYy1otRk7Gv'
+        process.env.apikey
       )
       .then(setLoader(true))
       .then(
