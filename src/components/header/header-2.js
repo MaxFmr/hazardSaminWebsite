@@ -104,7 +104,7 @@ function HeaderTwo() {
                 <Link href='/'>
                   <a>
                     <Image
-                      src='/images/logo/logo-2.png'
+                      src='/images/logo/logo.svg'
                       alt='Logo'
                       width={70}
                       height={70}
