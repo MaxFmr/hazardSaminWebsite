@@ -40,28 +40,7 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            {/* <div className='fixed-lg:col-span-3 fixed-md:col-span-3 fixed-lm:col-span-6 max-sm:pt-[30px]'>
-              <div className='footer-widget-item'>
-                <h2 className='title'>Quick Links</h2>
-                <ul className='footer-list mt-[25px]'>
-                  <li>
-                    <Link href='/contact'>Works</Link>
-                  </li>
-                  <li>
-                    <Link href='/contact'>Affiliate</Link>
-                  </li>
-                  <li>
-                    <Link href='/contact'>Shop</Link>
-                  </li>
-                  <li>
-                    <Link href='/about'>Partners</Link>
-                  </li>
-                  <li>
-                    <Link href='/about'>Reviews</Link>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
+
             <div className='fixed-lg:col-span-3 fixed-md:col-span-2 fixed-lm:col-span-6 max-sm:pt-[30px]'>
               <div className='footer-widget-item'>
                 <h2 className='title'>Rubriques</h2>
@@ -92,7 +71,8 @@ function Footer() {
                   développé et déployé à Cambrai par{' '}
                   <Link href='https://www.maximekerlidou.fr'>
                     <a target='_blank'>
-                      <span> Maxime KERLIDOU</span>
+                      <span> -</span>
+                      <span>Maxime KERLIDOU</span>
                     </a>
                   </Link>
                 </div>

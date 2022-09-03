@@ -7,6 +7,7 @@ import Services from '../components/home-page/services';
 import About from '../components/home-page/about';
 import Testimonial from '../components/home-page/testimonial';
 import Brand from '../components/home-page/brand';
+import Team from '../components/team';
 import LatestProject from '../components/home-page/latest-project';
 
 function HomePage(props) {
@@ -25,7 +26,7 @@ function HomePage(props) {
       <LatestProject projects={props.projects} />
       <About />
       <Testimonial testimonialItems={props.testimonialItems} />
-      <Brand brandItems={props.brandItems} />
+      {/* <Brand brandItems={props.brandItems} /> */}
     </Fragment>
   );
 }

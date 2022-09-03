@@ -16,11 +16,10 @@ function AboutPage(props) {
         <title>About</title>
       </Head>
       <HeaderOne />
-      {/* <PageBanner /> */}
       <About />
       {/* <Services services={props.services} /> */}
       <Testimonial testimonialItems={props.testimonialItems} />
-      <Brand brandItems={props.brandItems} />
+      {/* <Brand brandItems={props.brandItems} /> */}
       <Team teamItems={props.teamItems} />
     </Fragment>
   );

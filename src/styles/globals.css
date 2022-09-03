@@ -266,7 +266,7 @@ textarea:focus-visible {
   @apply lm:text-[42px] text-[28px] lm:leading-[50px];
 }
 .testimonial-block {
-  @apply bg-white relative;
+  @apply bg-white relative mb-28;
 }
 .testimonial-block .inner-box {
   @apply relative pt-[25px] pb-[35px] px-[25px];
