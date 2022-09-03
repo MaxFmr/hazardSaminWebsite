@@ -14,9 +14,9 @@ function About() {
         <div className='lg:grid lg:grid-cols-2 max-md:flex max-md:flex-col-reverse'>
           <div className='about-content max-md:pt-10'>
             <span className={subTitle}>A propos</span>
-            <h2 className={title}>Plus de 12 ans d'expérience</h2>
+            <h2 className={title}>Plus de 12 ans d’expérience</h2>
             <h3 className='text-secondary text-2xl mb-12'>
-              Pour une prestation haut-de-gamme <br /> Quel que soit l'ambition
+              Pour une prestation haut-de-gamme <br /> Quel que soit l’ambition
               de notre client.
             </h3>
             <p className={desc}>
@@ -30,10 +30,10 @@ function About() {
               <div>
                 <h2 className={title}>Conseil en décoration</h2>
                 <p className={desc}>
-                  Pour tout devis signé, l'entreprise vos offres la prestation
-                  d'une décoratrice professionnelle. Cette prestation implique,
+                  Pour tout devis signé, l’entreprise vos offres la prestation
+                  d’une décoratrice professionnelle. Cette prestation implique,
                   la construction de plans, le choix des couleurs, des
-                  matériaux, la proposition d'aménagements si besoin.
+                  matériaux, la proposition d’aménagements si besoin.
                 </p>
               </div>
             )}
@@ -41,7 +41,7 @@ function About() {
             {router.pathname === '/' && (
               <Link href='/about'>
                 <a className='boxed-btn text-[18px] leading-[30px]'>
-                  En savoir plus
+                  En savoir
                 </a>
               </Link>
             )}

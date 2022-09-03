@@ -81,7 +81,10 @@ function Testimonial({ testimonialItems }) {
                       </p>
                       <div style={{ marginTop: '10px' }}>
                         {' '}
-                        <a href={testimonialItem?.link} target='_blank'>
+                        <a
+                          href={testimonialItem?.link}
+                          target='_blank'
+                          rel='noreferrer'>
                           Retrouver le commentaire sur Google
                         </a>
                       </div>
