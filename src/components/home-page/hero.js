@@ -30,7 +30,11 @@ function Hero({ heroItems }) {
                   muted
                   loop
                   autoPlay
-                  style={{ height: '100%', objectFit: 'cover' }}></video>
+                  style={{
+                    height: '100%',
+                    objectFit: 'cover',
+                    width: '100%',
+                  }}></video>
               </div>
               <div className='container custom-container'>
                 <div className={heroContent}>
