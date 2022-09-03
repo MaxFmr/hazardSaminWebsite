@@ -9,7 +9,6 @@ function allItemsPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>`Nos Chantiers`</title>
         <meta
           name='description'
           content='Exemples de chantiers réalisés par l’entreprise peintures Hazard-Samin'

@@ -80,7 +80,7 @@ textarea:focus-visible {
   @apply bg-[#3790cc];
 }
 .sticky-style-2 {
-  @apply bg-white border-[#dfdfdf] border-b;
+  @apply bg-[#3790cc];
 }
 
 .language-list {
@@ -266,7 +266,7 @@ textarea:focus-visible {
   @apply lm:text-[42px] text-[28px] lm:leading-[50px];
 }
 .testimonial-block {
-  @apply bg-white relative mb-28;
+  @apply bg-white relative mb-8;
 }
 .testimonial-block .inner-box {
   @apply relative pt-[25px] pb-[35px] px-[25px];
