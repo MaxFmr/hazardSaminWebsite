@@ -66,7 +66,7 @@ function Testimonial({ testimonialItems }) {
               return (
                 <SwiperSlide key={i}>
                   <div className='testimonial-block'>
-                    <div className='inner-box relative before:absolute before:top-0 before:left-0 before:w-full before:h-[5px] before:bg-primary before:transition-all before:duration-500 before:scale-0 before:hover:scale-100'>
+                    <div className='inner-box relative before:absolute before:top-0 before:left-0 begir fore:w-full before:h-[5px] before:bg-primary before:transition-all before:duration-500 before:scale-0 before:hover:scale-100'>
                       <div className='quote flex justify-end text-primary text-[30px] leading-[60px] py-[10px]'>
                         <Icon />
                       </div>
