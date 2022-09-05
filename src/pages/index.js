@@ -23,8 +23,8 @@ function HomePage(props) {
       <HeaderOne />
       <Hero heroItems={props.heroItems} />
       <Services services={props.services} />
-      <LatestProject projects={props.projects} />
       <About />
+      <LatestProject projects={props.projects} />
       <Testimonial testimonialItems={props.testimonialItems} />
       {/* <Brand brandItems={props.brandItems} /> */}
     </Fragment>
