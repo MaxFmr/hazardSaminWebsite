@@ -21,7 +21,7 @@ function Testimonial({ testimonialItems }) {
     }
   }, [swiper]);
   return (
-    <div className='testimonial-area bg-azure'>
+    <div className='testimonial-area bg-azure pb-9'>
       <div className='container'>
         <div className='grid-cols-1'>
           <div className='flex items-center justify-between mb-[65px]'>
@@ -66,7 +66,7 @@ function Testimonial({ testimonialItems }) {
               return (
                 <SwiperSlide key={i}>
                   <div className='testimonial-block'>
-                    <div className='inner-box relative before:absolute before:top-0 before:left-0 begir fore:w-full before:h-[5px] before:bg-primary before:transition-all before:duration-500 before:scale-0 before:hover:scale-100'>
+                    <div className='inner-box relative before:absolute before:top-0 before:left-0 begir fore:w-full before:h-[5px] before:bg-primary before:transition-all before:duration-500 before:scale-0 before:hover:scale-100 inline-block align-middle '>
                       <div className='quote flex justify-end text-primary text-[30px] leading-[60px] py-[10px]'>
                         <Icon />
                       </div>
@@ -79,8 +79,7 @@ function Testimonial({ testimonialItems }) {
                       <p className='testimonial-feedback'>
                         {testimonialItem?.excerpt}
                       </p>
-                      <div style={{ marginTop: '10px' }}>
-                        {' '}
+                      <div style={{ marginTop: '20px' }}>
                         <a
                           href={testimonialItem?.link}
                           target='_blank'

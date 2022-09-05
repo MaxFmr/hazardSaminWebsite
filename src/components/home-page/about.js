@@ -27,9 +27,10 @@ function About() {
               extérieure dans le Valenciennois.
             </p>
             {router.pathname === '/about' && (
-              <div>
+              <div className='border-solid border-2 flex flex-col text-center items-center align-middle p-5'>
                 <h2 className={title}>Conseil en décoration</h2>
-                <p className={desc}>
+
+                <p className=''>
                   Pour tout devis signé, l’entreprise vos offres la prestation
                   d’une décoratrice professionnelle. Cette prestation implique,
                   la construction de plans, le choix des couleurs, des

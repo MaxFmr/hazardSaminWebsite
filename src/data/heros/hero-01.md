@@ -6,6 +6,6 @@ twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 googleIcon: 'FaGoogle'
 heroCategory: La décoration intérieure <br />
-heroTitle: Peintures Revêtements muraux <br />  Revêtements de sol
+heroTitle: Peintures <br /> Revêtements muraux <br />  Revêtements de sol
 heroContactInfo: hazard.samin@gmail.com
 ---
