@@ -65,7 +65,7 @@ textarea:focus-visible {
 }
 
 .sticky-style-2 .main-menu li a span {
-  @apply before:bg-black;
+  @apply before:bg-white;
 }
 .is-sticky {
   @apply fixed transition duration-500 top-0 left-0 w-full z-20;
@@ -123,7 +123,7 @@ textarea:focus-visible {
   @apply h-[68px] w-[30px];
 }
 .chevron {
-  @apply cursor-pointer w-[28px] h-[7px] transition-all opacity-0 absolute before:skew-y-[30deg] before:bg-[#0F70B1] before:h-full before:w-[51%] before:absolute after:bg-[#0F70B1] after:absolute after:h-full after:w-[51%] after:right-0 after:skew-y-[-30deg];
+  @apply cursor-pointer w-[28px] h-[7px] transition-all opacity-0 absolute before:skew-y-[30deg] before:bg-[#0F70B1] before:h-full before:w-[51%] before:absolute after:bg-[#0F70B1] after:absolute after:h-full after:w-[51%] after:right-0 after:skew-y-[-30deg] mt-6;
 }
 
 .hero-slidedown {

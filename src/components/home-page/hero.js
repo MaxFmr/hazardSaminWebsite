@@ -55,7 +55,7 @@ function Hero({ heroItems }) {
                     </div>
                     <div className='md:col-span-10 col-span-12'>
                       <div
-                        className='text-[18px] leading-8 tracking-[5px] text-white uppercase md:mb-[30px] mb-[10px] block hero-slidedown delay-300'
+                        className='text-[18px] leading-8 tracking-[5px] text-white uppercase md:mb-[30px] mb-[10px] block hero-slidedown delay-300 mt-20'
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroCategory,
                         }}
@@ -75,8 +75,8 @@ function Hero({ heroItems }) {
                     </div>
                   </div>
                 </div>
-                <div className='info text-white hover:text-primary transition-all text-[14px] uppercase absolute bottom-[100px] sm:right-[70px] right-auto z-[2]'>
-                  <Link href='tel:+contact@Rustictudio.co'>
+                <div className='info text-white hover:text-primary transition-all text-[14px] uppercase absolute bottom-[100px] sm:right-[70px] right-auto z-[2] invisible lg:visible'>
+                  <Link href='email:hazar.samin@gmail.com'>
                     {heroItem?.heroContactInfo}
                   </Link>
                 </div>
