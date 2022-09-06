@@ -42,7 +42,7 @@ function About() {
             {router.pathname === '/' && (
               <Link href='/about'>
                 <a className='boxed-btn text-[18px] leading-[30px]'>
-                  En savoir
+                  En savoir plus
                 </a>
               </Link>
             )}
