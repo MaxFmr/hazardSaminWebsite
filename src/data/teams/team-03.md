@@ -1,10 +1,10 @@
 ---
 title: Team Member
-image: /images/team/3.jpg
+image: /images/team/p3.jpg
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
-memberName: Laura Erakovic
-designation: Executive & Marketing Management
+memberName: Gwendal FLORENCEAU
+designation: Peintre qualifié
 ---

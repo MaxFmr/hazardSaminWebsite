@@ -1,10 +1,10 @@
 ---
-title: Team Member
-image: /images/team/2.jpg
+title: peintre
+image: /images/team/p2.jpg
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
-memberName: Tom Holland
-designation: Architect & Project Management
+memberName: Maxime LEDROLE
+designation: Peintre qualifié
 ---

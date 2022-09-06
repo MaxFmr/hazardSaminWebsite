@@ -5,17 +5,17 @@ import GoogleMap from '../components/contact/google-map';
 import ContactForm from '../components/contact/contact-form';
 
 function ContactPage() {
-    return (
-        <Fragment>
-            <Head>
-                <title>Contact Us</title>
-                <meta name='description' content='Send us your messages!' />
-            </Head>
-            <HeaderTwo />
-            <GoogleMap />
-            <ContactForm />
-        </Fragment>
-    );
+  return (
+    <Fragment>
+      <Head>
+        <title>Contactez-nous</title>
+        <meta name='description' content='Send us your messages!' />
+      </Head>
+      <HeaderTwo />
+      <GoogleMap />
+      <ContactForm />
+    </Fragment>
+  );
 }
 
 export default ContactPage;

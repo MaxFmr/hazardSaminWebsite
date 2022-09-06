@@ -3,12 +3,12 @@ import Link from 'next/link';
 import * as FaIcons from 'react-icons/fa';
 
 function Team({ teamItems }) {
-  const teamMemberImage = `relative before:hover:absolute before:hover:bg-[#111111] before:hover:w-full before:hover:h-full before:hover:top-0 before:hover:left-0 before:opacity-[0.5] before:duration-500 before:pointer-events-none before:z-[1]`;
+  const teamMemberImage = `relative before:hover:absolute before:opacity-[0.5] before:duration-500 before:pointer-events-none before:z-[1]`;
   return (
     <div className='team-area md:py-155 py-[55px] border-[#dfdfdf] border-b'>
       <div className='container'>
         <h2 className='lm:text-[42px] text-[32px] lm:leading-[50px] mb-[60px]'>
-          Profressional & Passionate
+          Profressionels et Passionnés
         </h2>
         <div className='grid sm:grid-cols-12 lg:gap-x-[70px] fixed-md:gap-x-[30px] gap-[30px]'>
           {teamItems?.map((teamItem, i) => {
@@ -30,7 +30,7 @@ function Team({ teamItems }) {
                         width={343}
                         height={409}
                         layout='responsive'
-                        objectFit='cover'
+                        objectFit='contain'
                         quality={70}
                         priority
                       />
@@ -69,7 +69,7 @@ function Team({ teamItems }) {
                       </ul>
                     </div> */}
                   </div>
-                  <div className='team-member-content pt-[25px]'>
+                  <div className='team-member-content pt-[25px] ml-8'>
                     <h3>
                       <Link href='/about'>
                         <a className='transition-all hover:text-[#caac6b] text-[24px] leading-[31px]'>
