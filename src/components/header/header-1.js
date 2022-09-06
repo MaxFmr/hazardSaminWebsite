@@ -31,7 +31,7 @@ function HeaderOne() {
   return (
     <Fragment>
       <header className='absolute w-full z-10'>
-        <div className='sticky-holder header-section sticky-style-1'>
+        <div className='sticky-holder header-section sticky-style-1 '>
           <div className='custom-container container'>
             <div className='grid grid-cols-12 items-center leading-[120px]'>
               <div className='lg:col-span-2 col-span-6'>

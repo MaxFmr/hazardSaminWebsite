@@ -28,7 +28,7 @@ function Services({ services }) {
                           </div>
                           <div className='content'>
                             <h3 className='title'>
-                              <Link href='/projects'>
+                              <Link href={service?.path}>
                                 <a className='hover:underline'>
                                   {service?.title}
                                 </a>

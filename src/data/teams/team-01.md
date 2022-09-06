@@ -1,10 +1,10 @@
 ---
-title: Team Member
-image: /images/team/1.jpg
+title: Peintre qualifié, spécialiste sols et aménagements intérieurs
+image: /images/team/p1.jpg
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
-memberName: Edward Eric Jr
-designation: CEO Founder
+memberName: Maxime COMBRE
+designation: Peintre qualifié
 ---

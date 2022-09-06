@@ -13,7 +13,7 @@ function Breadcrumb(props) {
             <Link href='/projects'>{activePage}</Link>
           </li>
         </ul>
-        <h1 className='lm:text-[60px] text-[36px] lm:leading-[60px] mt-[45px]'>
+        <h1 className='lm:text-[60px] text-[36px] lm:leading-[60px] mt-[45px] mb-12'>
           {pageTitle}
         </h1>
       </div>

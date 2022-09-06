@@ -65,7 +65,7 @@ textarea:focus-visible {
 }
 
 .sticky-style-2 .main-menu li a span {
-  @apply before:bg-black;
+  @apply before:bg-white;
 }
 .is-sticky {
   @apply fixed transition duration-500 top-0 left-0 w-full z-20;
@@ -80,7 +80,7 @@ textarea:focus-visible {
   @apply bg-[#3790cc];
 }
 .sticky-style-2 {
-  @apply bg-white border-[#dfdfdf] border-b;
+  @apply bg-[#3790cc];
 }
 
 .language-list {
@@ -123,7 +123,7 @@ textarea:focus-visible {
   @apply h-[68px] w-[30px];
 }
 .chevron {
-  @apply cursor-pointer w-[28px] h-[7px] transition-all opacity-0 absolute before:skew-y-[30deg] before:bg-[#0F70B1] before:h-full before:w-[51%] before:absolute after:bg-[#0F70B1] after:absolute after:h-full after:w-[51%] after:right-0 after:skew-y-[-30deg];
+  @apply cursor-pointer w-[28px] h-[7px] transition-all opacity-0 absolute before:skew-y-[30deg] before:bg-[#0F70B1] before:h-full before:w-[51%] before:absolute after:bg-[#0F70B1] after:absolute after:h-full after:w-[51%] after:right-0 after:skew-y-[-30deg] mt-6;
 }
 
 .hero-slidedown {
@@ -266,7 +266,7 @@ textarea:focus-visible {
   @apply lm:text-[42px] text-[28px] lm:leading-[50px];
 }
 .testimonial-block {
-  @apply bg-white relative;
+  @apply bg-white relative mb-8;
 }
 .testimonial-block .inner-box {
   @apply relative pt-[25px] pb-[35px] px-[25px];
