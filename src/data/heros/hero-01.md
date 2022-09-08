@@ -5,7 +5,10 @@ heroYear: 2022
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 googleIcon: 'FaGoogle'
-heroCategory: La décoration intérieure <br />
-heroTitle: Peintures <br /> Revêtements muraux <br />  Revêtements de sol
+heroCategory: SARL Peintures <br/> HAZARD-SAMIN <br />
+heroTitle1: Peinture <br />
+heroTitle2: Décoration <br />
+heroTitle3: Revêtements sols et murs<br />
+heroTitle4: Aménagement intérieur <br />
 heroContactInfo: hazard.samin@gmail.com
 ---

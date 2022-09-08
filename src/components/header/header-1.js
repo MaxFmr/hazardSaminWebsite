@@ -30,7 +30,7 @@ function HeaderOne() {
   const headerCss = `flex lg:justify-between justify-end items-center`;
   return (
     <Fragment>
-      <header className='absolute w-full z-10'>
+      <header className='absolute w-full z-10 md:h-10'>
         <div className='sticky-holder header-section sticky-style-1 '>
           <div className='custom-container container'>
             <div className='grid grid-cols-12 items-center leading-[120px]'>
