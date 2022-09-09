@@ -8,7 +8,7 @@ import BigLogo from './bigLogo';
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 function Hero({ heroItems }) {
-  const heroImage = `relative w-full h-[725px] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-black before:opacity-30 before:z-[1] before:pointer-events-none overflow-hidden`;
+  const heroImage = `relative w-full h-[100vh] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-black before:opacity-30 before:z-[1] before:pointer-events-none overflow-hidden`;
   const heroContent = `absolute sm:w-[calc(100%_-_100px)] left-auto top-1/2 transform translate-y-[-50%] z-[2]`;
   return (
     <>
@@ -49,13 +49,14 @@ function Hero({ heroItems }) {
                     </div>
                     <div className='md:col-span-10 col-span-12'>
                       <div
-                        className='text-[18px] leading-8 tracking-[5px] text-white uppercase md:mb-[30px] mb-[10px] block hero-slidedown delay-300 mt-16'
+                        className='text-[18px] leading-8 tracking-[5px] text-white uppercase md:mb-[30px] mb-[10px] block hero-slidedown delay-300 mt-5
+                      '
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroCategory,
                         }}
                       />
                       <h2
-                        className='md:text-[70px] md:leading-[100px] text-[30px] leading-[1.2] text-[#1F71B1]  mb-[20px] hero-slidedown delay-[600ms] '
+                        className='md:text-[70px] md:leading-[100px] text-[30px] leading-[1.2] text-[#1F71B1]  mb-[20px] hero-slidedown delay-[600ms] mt-5 '
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroTitle1,
                         }}></h2>
@@ -74,7 +75,7 @@ function Hero({ heroItems }) {
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroTitle4,
                         }}></h2>
-                      <div className='hero-slidedown delay-[1200ms] mt-20'>
+                      <div className='hero-slidedown delay-[1200ms] mt-16'>
                         <Link href='/about'>
                           <a className='boxed-btn text-[18px] leading-[30px]'>
                             En savoir plus
