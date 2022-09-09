@@ -5,7 +5,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { useState, useEffect, Fragment } from 'react';
 import { useRouter } from 'next/router';
 import { OffcanvasData } from './offcanvas-data';
-import DarkLogo from './dark-logo';
+import WhiteLogo from './white-logo';
 
 function HeaderTwo() {
   const [offcanvas, setOffcanvas] = useState(false);
@@ -35,7 +35,7 @@ function HeaderTwo() {
         <div className='custom-container container'>
           <div className='grid grid-cols-12 items-center leading-[120px]'>
             <div className='lg:col-span-2 col-span-6'>
-              <DarkLogo />
+              <WhiteLogo />
             </div>
             <div className='lg:col-span-7 lg:block hidden'>
               <nav>
