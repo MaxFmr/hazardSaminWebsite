@@ -44,16 +44,12 @@ function Services({ services }) {
               </div>
             </div>
           </div>
-          <div className='lg:col-span-6'>
-            <div className='service-image flex justify-end w-full lg:h-full h-[679px] relative'>
-              <Image
-                src='/images/service/1.png'
-                alt='Service Image'
-                quality={70}
-                height={729}
-                width={875}
-                objectFit='contain'
-                priority
+          <div className='lg:col-span-6 border-2 md:mr-6'>
+            <div className='service-image flex justify-end w-full lg:h-full h-[650px]  relative'>
+              <video
+                src='https://www.maximekerlidou.fr/videos/samin/video.mp4'
+                controls
+                className='object-cover'
               />
             </div>
           </div>

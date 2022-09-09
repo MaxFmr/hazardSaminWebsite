@@ -27,7 +27,7 @@ function Hero({ heroItems }) {
             <SwiperSlide className='hero-item' key={i}>
               <div className={heroImage}>
                 <video
-                  src='https://media.istockphoto.com/videos/painter-painting-a-ceiling-video-id1311116699'
+                  src='https://www.maximekerlidou.fr/videos/samin/videobanner.mp4'
                   muted
                   loop
                   autoPlay
