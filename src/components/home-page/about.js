@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function About() {
   const router = useRouter();
-  const subTitle = `text-[18px] leading-[32px] text-secondary uppercase`;
+  const subTitle = `text-[14px] leading-[32px] text-secondary uppercase`;
   const title = `lm:text-[42px] lm:leading-[50px] text-[32px] text-black mb-[35px] lg:max-w-[460px]`;
   const desc = `text-[14px] leading-[25px] text-secondary mb-[10px] lg:max-w-[490px]`;
   const aboutImage = `flex justify-end relative sm:before:bg-pattern-1 sm:before:absolute sm:before:h-[336px] sm:before:w-[336px] sm:before:top-[75px] sm:before:left-[85px]`;
@@ -18,7 +18,7 @@ function About() {
             <div>
               {' '}
               <h3 className='text-secondary text-2xl mb-10'>
-                Pour une prestation haut-de-gamme <br /> Quel que soit
+                Pour une prestation haut-de-gamme <br /> Quelle que soit
                 l’ambition de notre client.
               </h3>
               <p className={desc}>
@@ -33,13 +33,16 @@ function About() {
                 <h4 className='mb-3'>
                   <strong>L'entreprise vous propose :</strong>
                 </h4>
-                <ul>
+                <ul className='list-disc ml-4 mb-14'>
                   <li>
-                    - La décoration intérieur : peintures et tous types de
+                    La décoration intérieure : peintures et tous types de
                     revêtements de sols et murs.
                   </li>
-                  <li>- La peinture et décoration extérieure.</li>
-                  <li>- L'Aménagement intérieur, l'ameublement sur mesure. </li>
+                  <li>La peinture et décoration extérieure.</li>
+                  <li>
+                    L'Aménagement intérieur, l'ameublement sur mesure,
+                    installation, menuiserie...{' '}
+                  </li>
                 </ul>
               </div>
             </div>

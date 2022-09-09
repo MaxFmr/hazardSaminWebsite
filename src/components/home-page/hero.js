@@ -75,7 +75,7 @@ function Hero({ heroItems }) {
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroTitle4,
                         }}></h2>
-                      <div className='hero-slidedown delay-[1200ms] mt-16'>
+                      <div className='hero-slidedown delay-[1200ms] mt-12'>
                         <Link href='/about'>
                           <a className='boxed-btn text-[18px] leading-[30px]'>
                             En savoir plus
