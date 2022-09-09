@@ -16,7 +16,6 @@ function About() {
             <span className={subTitle}>A propos</span>
             <h2 className={title}>Plus de 40 ans d’expérience</h2>
             <div>
-              {' '}
               <h3 className='text-secondary text-2xl mb-10'>
                 Pour une prestation haut-de-gamme <br /> Quelle que soit
                 l’ambition de notre client.
@@ -40,7 +39,7 @@ function About() {
                   </li>
                   <li>La peinture et décoration extérieure.</li>
                   <li>
-                    L'Aménagement intérieur, l'ameublement sur mesure,
+                    L'Aménagements intérieurs, l'ameublement sur mesure,
                     installation, menuiserie...{' '}
                   </li>
                 </ul>

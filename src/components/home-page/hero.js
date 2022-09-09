@@ -49,29 +49,29 @@ function Hero({ heroItems }) {
                     </div>
                     <div className='md:col-span-10 col-span-12'>
                       <div
-                        className='text-[18px] leading-8 tracking-[5px] text-white uppercase md:mb-[30px] mb-[10px] block hero-slidedown delay-300 mt-5
+                        className='text-[14px] leading-8 tracking-[5px] text-white uppercase md:mb-[30px] mb-[5px] block hero-slidedown delay-300 mt-10
                       '
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroCategory,
                         }}
                       />
                       <h2
-                        className='md:text-[70px] md:leading-[100px] text-[30px] leading-[1.2] text-[#1F71B1]  mb-[20px] hero-slidedown delay-[600ms] mt-5 '
+                        className='md:text-[50px] text-[30px] sm:text-[27px]  leading-[27px] md:leading-[50px] text-[#1F71B1]  mb-[20px] hero-slidedown delay-[600ms] mt-5 '
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroTitle1,
                         }}></h2>
                       <h2
-                        className='md:text-[70px] md:leading-[100px] text-[30px] leading-[1.2] text-[#A9C321] mb-[20px] hero-slidedown delay-[600ms]'
+                        className='md:text-[50px] text-[30px]  leading-[27px] md:leading-[50px] text-[#A9C321] mb-[20px] hero-slidedown delay-[600ms]'
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroTitle2,
                         }}></h2>
                       <h2
-                        className='md:text-[70px] md:leading-[100px] text-[30px] leading-[1.2] text-[#C31772] mb-[20px] hero-slidedown delay-[600ms]'
+                        className='md:text-[50px]  leading-[27px] text-[30px] md:leading-[50px] text-[#C31772] mb-[20px] hero-slidedown delay-[600ms]'
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroTitle3,
                         }}></h2>
                       <h2
-                        className='md:text-[70px] md:leading-[100px] text-[30px] leading-[1.2] text-[#9D2679] mb-[20px] hero-slidedown delay-[600ms]'
+                        className='md:text-[50px] md:leading-[50px] leading-[27px] text-[30px]  text-[#9D2679] mb-[20px] hero-slidedown delay-[600ms]'
                         dangerouslySetInnerHTML={{
                           __html: heroItem?.heroTitle4,
                         }}></h2>
