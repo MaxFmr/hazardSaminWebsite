@@ -184,17 +184,23 @@ textarea:focus-visible {
   @apply bg-primary;
 }
 
-.project-item {
-  @apply relative before:absolute before:bg-primary before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
+.project-item1 {
+  @apply relative before:absolute before:bg-p1 before:bg-no-repeat before:bg-cover before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
+}
+.project-item2 {
+  @apply relative before:absolute before:bg-p2 before:bg-no-repeat before:bg-cover before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
+}
+.project-item3 {
+  @apply relative before:absolute before:bg-p3 before:bg-no-repeat before:bg-cover before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
 }
 .project-content {
   @apply absolute left-[40px] bottom-[40px] z-[2];
 }
 .project-category {
-  @apply text-white text-[14px] leading-6 uppercase block mb-[15px] transition duration-500 group-hover:text-black;
+  @apply text-white text-[14px] leading-6 uppercase block mb-[15px] transition duration-500;
 }
 .project-title {
-  @apply text-white text-[36px] leading-[43px] transition duration-500 group-hover:text-black;
+  @apply text-white text-[36px] leading-[43px] transition duration-500;
 }
 /*----------------------------------------*/
 /*  - post

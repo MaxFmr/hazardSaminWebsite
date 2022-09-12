@@ -2,13 +2,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 function ProjectItem(props) {
-  const { title, category, excerpt, image, slug } = props.project;
+  const { title, category, excerpt, image, slug, id } = props.project;
 
-  const imagePath = `/images/projects/${slug}/${image}`;
+  const imagePath = `/images/projects/${id}/avant.jpg`;
   const linkPath = `/projects/${slug}`;
 
   return (
-    <div className={`project-item gallery-item group ${category}`}>
+    <div className={`project-item${id} gallery-item group ${category}`}>
       <Link href={linkPath}>
         <a>
           <div className='project-img relative before:absolute before:bg-black before:opacity-20 before:w-full before:h-full before:z-[1]'>
