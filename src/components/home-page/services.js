@@ -44,12 +44,12 @@ function Services({ services }) {
               </div>
             </div>
           </div>
-          <div className='lg:col-span-6 border-2 md:mr-6'>
-            <div className='service-image flex justify-end w-full lg:h-full h-[650px]  relative'>
+          <div className='lg:col-span-6 mr-10  self-end '>
+            <div className='service-image flex justify-end w-full lg:h-full relative'>
               <video
                 src='https://www.maximekerlidou.fr/videos/samin/video.mp4'
                 controls
-                className='object-cover'
+                className='object-cover self-center h-[480px] '
               />
             </div>
           </div>

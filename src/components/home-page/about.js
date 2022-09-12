@@ -7,7 +7,7 @@ function About() {
   const subTitle = `text-[14px] leading-[32px] text-secondary uppercase`;
   const title = `lm:text-[42px] lm:leading-[50px] text-[32px] text-black mb-[35px] lg:max-w-[460px]`;
   const desc = `text-[14px] leading-[25px] text-secondary mb-[10px] lg:max-w-[490px]`;
-  const aboutImage = `flex justify-end relative sm:before:bg-pattern-1 sm:before:absolute sm:before:h-[336px] sm:before:w-[336px] sm:before:top-[75px] sm:before:left-[85px]`;
+  const aboutImage = `flex  justify-end relative w-[130px] self-center md:w-[250px] lg:w-[390px] lg:ml-40`;
   return (
     <div id='about' className='about-area md:pt-[150px] pt-[50px]'>
       <div className='container max-lg:max-w-full fixed-lg:pr-0'>
@@ -22,7 +22,7 @@ function About() {
               </h3>
               <p className={desc}>
                 Fondée en 1971 par Robert Hazard, l’entreprise a été reprise en
-                2010 par Serge Samin. Habitée par le goût de l’excellence et du
+                2012 par Serge Samin. Habitée par le goût de l’excellence et du
                 travail de qualité, Peintures Hazard-Samin est aujourd’hui un
                 acteur reconnu du marché de la décoration intérieure et peinture
                 extérieure dans le Valenciennois. L'équipe est aujourd'hui
@@ -39,7 +39,7 @@ function About() {
                   </li>
                   <li>La peinture et décoration extérieure.</li>
                   <li>
-                    L'Aménagements intérieurs, l'ameublement sur mesure,
+                    L'Aménagements intérieurs, l'ameublement sur-mesure,
                     installation, menuiserie...{' '}
                   </li>
                 </ul>
@@ -68,15 +68,15 @@ function About() {
             )}
           </div>
           <div className={aboutImage}>
-            <Image
-              src='/images/about/1.jpg'
+            <video
+              className='object-cover self-center'
+              autoPlay
+              muted
+              loop
+              src='https://www.maximekerlidou.fr/videos/samin/pinceau.mp4'
               alt='Service Image'
               width={390}
               height={760}
-              quality={70}
-              layout='fixed'
-              objectFit='cover'
-              priority
             />
           </div>
         </div>
