@@ -69,8 +69,6 @@ function About() {
           </div>
           <div className={aboutImage}>
             <video
-              webkit-playsinline
-              playsinline
               className='object-cover self-center'
               autoPlay
               muted
@@ -79,6 +77,8 @@ function About() {
               alt='Service Image'
               width={390}
               height={760}
+              webkit-playsinline
+              playsinline
             />
           </div>
         </div>
