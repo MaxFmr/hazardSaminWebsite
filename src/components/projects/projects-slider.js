@@ -6,34 +6,37 @@ import ProjectItem from './project-item';
 SwiperCore.use([Pagination, Autoplay]);
 
 function ProjectSlider(props) {
-    const { projects } = props;
+  const { projects } = props;
 
-    return (
-        <Swiper
-            pagination={{ clickable: true, type: 'bullets' }}
-            spaceBetween={5}
-            breakpoints={{
-                1200: {
-                    slidesPerView: 4,
-                },
-                992: {
-                    slidesPerView: 3,
-                },
-                576: {
-                    slidesPerView: 2,
-                },
-                0: {
-                    slidesPerView: 1,
-                },
-            }}
-        >
-            {projects.map((project) => (
-                <SwiperSlide key={project.slug}>
-                    <ProjectItem project={project} />
-                </SwiperSlide>
-            ))}
-        </Swiper>
-    );
+  return (
+    <div className=''>
+      <Swiper
+        pagination={{ clickable: true, type: 'bullets' }}
+        spaceBetween={5}
+        breakpoints={{
+          1200: {
+            slidesPerView: 3,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+          576: {
+            slidesPerView: 2,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+        }}>
+        <div className='border-2'>
+          {projects.map((project) => (
+            <SwiperSlide key={project.slug}>
+              <ProjectItem project={project} />
+            </SwiperSlide>
+          ))}
+        </div>
+      </Swiper>
+    </div>
+  );
 }
 
 export default ProjectSlider;
