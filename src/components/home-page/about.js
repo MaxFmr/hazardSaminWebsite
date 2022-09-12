@@ -69,6 +69,8 @@ function About() {
           </div>
           <div className={aboutImage}>
             <video
+              webkit-playsinline
+              playsinline
               className='object-cover self-center'
               autoPlay
               muted

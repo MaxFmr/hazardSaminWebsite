@@ -27,6 +27,8 @@ function Hero({ heroItems }) {
             <SwiperSlide className='hero-item' key={i}>
               <div className={heroImage}>
                 <video
+                  webkit-playsinline
+                  playsinline
                   src='https://www.maximekerlidou.fr/videos/samin/videobanner.mp4'
                   muted
                   loop
