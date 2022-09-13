@@ -78,7 +78,7 @@ function About() {
               width={390}
               height={760}
               webkit-playsinline
-              playsinline
+              playsInline
             />
           </div>
         </div>
