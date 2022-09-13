@@ -1,3 +1,7 @@
+import Head from 'next/head';
+import { Fragment } from 'react';
+import HeaderTwo from '../../components/header/header-2';
+
 const Gallery = () => {
   return (
     <Fragment>
