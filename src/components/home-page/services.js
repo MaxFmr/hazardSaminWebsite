@@ -44,8 +44,8 @@ function Services({ services }) {
               </div>
             </div>
           </div>
-          <div className='lg:col-span-6 mr-10  self-end '>
-            <div className='service-image flex justify-end w-full lg:h-full relative'>
+          <div className='lg:col-span-6 mr-0 md:mr-12 self-end '>
+            <div className='service-image flex justify-end w-full lg:h-full relative '>
               <video
                 playsInline
                 src='https://www.maximekerlidou.fr/videos/samin/video.mp4'
