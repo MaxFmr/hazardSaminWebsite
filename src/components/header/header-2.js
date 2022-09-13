@@ -76,6 +76,13 @@ function HeaderTwo() {
                       </a>
                     </Link>
                   </li>
+                  <li className={router.pathname == '/gallery' ? 'active' : ''}>
+                    <Link href='gallery'>
+                      <a>
+                        <span>gallery</span>
+                      </a>
+                    </Link>
+                  </li>
                 </ul>
               </nav>
             </div>

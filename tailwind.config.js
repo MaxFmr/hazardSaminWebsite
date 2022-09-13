@@ -23,8 +23,8 @@ module.exports = {
         'new-post': "url('/images/background/new-post.jpg')",
         'new-post': "url('/images/background/new-post.jpg')",
         p1: "url('/images/projects/1/1.jpg')",
-        p2: "url('/images/projects/2/6.jpg')",
-        p3: "url('/images/projects/3/27.jpg')",
+        p2: "url('/images/projects/2/2.jpg')",
+        p3: "url('/images/projects/3/26.jpg')",
       },
       animation: {
         'fade-in-down': 'fadeInDown 3s linear normal',

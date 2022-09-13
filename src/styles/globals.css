@@ -192,10 +192,11 @@ textarea:focus-visible {
 }
 
 .project-item1 {
-  @apply relative before:absolute before:bg-p1 before:bg-no-repeat before:bg-cover before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
+  @apply relative before:absolute before:bg-p1 before:bg-no-repeat before:bg-cover 
+ before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
 }
 .project-item2 {
-  @apply relative before:absolute before:bg-p2 before:bg-no-repeat before:bg-cover before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
+  @apply relative before:absolute before:bg-p2 before:bg-no-repeat before:bg-cover before:bg-right before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
 }
 .project-item3 {
   @apply relative before:absolute before:bg-p3 before:bg-no-repeat before:bg-cover before:w-0 before:h-full before:top-0 before:left-0 before:z-[1] before:pointer-events-none transition before:duration-500 hover:before:w-full;
