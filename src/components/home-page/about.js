@@ -77,7 +77,6 @@ function About() {
               alt='Service Image'
               width={390}
               height={760}
-              webkit-playsinline
               playsInline
             />
           </div>
