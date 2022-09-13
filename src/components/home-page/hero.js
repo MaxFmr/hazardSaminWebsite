@@ -5,17 +5,21 @@ import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import * as FaIcons from 'react-icons/fa';
 import enableInlineVideo from 'iphone-inline-video';
-import BigLogo from './bigLogo';
+import { useEffect } from 'react';
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 function Hero({ heroItems }) {
   const heroImage = `relative w-full h-[100vh] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-black before:opacity-30 before:z-[1] before:pointer-events-none overflow-hidden`;
   const heroContent = `absolute sm:w-[calc(100%_-_100px)] left-auto top-1/2 transform translate-y-[-50%] z-[2]`;
   // one video
-  let video = document.querySelector('video');
-  enableInlineVideo(video, {
-    iPad: true,
-  });
+
+  useEffect(() => {
+    let video = document.querySelector('video');
+    enableInlineVideo(video, {
+      iPad: true,
+    });
+  }, []);
+
   return (
     <>
       <Swiper
