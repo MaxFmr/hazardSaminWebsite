@@ -29,7 +29,7 @@ function ProjectDetailPage(props) {
                 }`}
                 style={{
                   backgroundImage: `url('/images/projects/${
-                    prevProject?.slug + '/' + prevProject?.image
+                    prevProject?.id + '/' + prevProject?.image
                   }')`,
                 }}>
                 Prev
@@ -44,7 +44,7 @@ function ProjectDetailPage(props) {
                 }`}
                 style={{
                   backgroundImage: `url('/images/projects/${
-                    nextProject?.slug + '/' + nextProject?.image
+                    nextProject?.id + '/' + nextProject?.image
                   }')`,
                 }}>
                 Next

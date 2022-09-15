@@ -19,7 +19,7 @@ function AllProjects(props) {
   return (
     <Fragment>
       <div className='container'></div>
-      <div className='grid xl:grid-cols-4 fixed-lg:grid-cols-3 fixed-md:grid-cols-2 gap-[5px]'>
+      <div className='grid xl:grid-cols-3 fixed-lg:grid-cols-3 fixed-md:grid-cols-3 gap-[5px] m-4'>
         <ProjectsGrid projects={projects} />
       </div>
     </Fragment>

@@ -1,9 +1,11 @@
 ---
 id: 3
+nbOfPhotos: 28
+
 title: 'Combines Design With Nature'
 category: 'commercial'
 date: '2022-01-12'
-image: combines.jpg
+image: 13.jpg
 excerpt: Commercial
 location: Calle Blancos, Costa Rica
 clientName: Alex Stinson

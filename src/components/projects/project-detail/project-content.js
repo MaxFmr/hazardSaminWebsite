@@ -4,11 +4,25 @@ import ProjectBanner from './project-banner';
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { IoMdGrid } from 'react-icons/io';
+import ImageGallery from 'react-image-gallery';
+import 'react-image-gallery/styles/css/image-gallery.css';
+
+export const images = [];
 
 function ProjectContent(props) {
   const { project } = props;
 
   const imagePath = `/images/projects/${project.id}/${project.image}`;
+
+  const images = [];
+
+  for (let index = 1; index < project.nbOfPhotos; index++) {
+    images.push({
+      original: `/images/projects/${project.id}/${index}.jpg`,
+
+      thumbnail: `/images/projects/${project.id}/${index}.jpg`,
+    });
+  }
 
   const customRenderers = {
     p(paragraph) {
@@ -66,14 +80,8 @@ function ProjectContent(props) {
                     }}
                   />
                 </div>
-                <div className='image md:pt-[85px] pt-[50px]'>
-                  <Image
-                    src={`/images/projects/${project.slug}/${image.properties.src}`}
-                    alt={image.alt}
-                    width={1170}
-                    height={610}
-                    objectFit='cover'
-                  />
+                <div className='image md:pt-[85px] pt-[50px] pb-20 '>
+                  <ImageGallery items={images} additionalClass='caroussel' />
                 </div>
               </div>
             </div>
