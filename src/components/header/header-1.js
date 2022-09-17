@@ -81,9 +81,9 @@ function HeaderOne() {
                     </li>
                     <li
                       className={router.pathname == '/gallery' ? 'active' : ''}>
-                      <Link href='gallery'>
+                      <Link href='/gallery'>
                         <a>
-                          <span>gallery</span>
+                          <span>gallerie photo</span>
                         </a>
                       </Link>
                     </li>

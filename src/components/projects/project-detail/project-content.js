@@ -39,31 +39,31 @@ function ProjectContent(props) {
                   <Link href='/projects'>
                     <a className='flex items-center text-[14px] leading-6 uppercase'>
                       <IoMdGrid className='text-[20px] mr-5' />
-                      Back to Projects
+                      Retour aux projets
                     </a>
                   </Link>
                 </div>
                 <ul className='info grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-3'>
                   <li>
-                    <span className='text-[#4D5660] mr-[5px]'>Location:</span>
+                    <span className='text-[#4D5660] mr-[5px]'>Région:</span>
                     {project?.location}
                   </li>
-                  <li>
+                  {/* <li>
                     <span className='text-[#4D5660] mr-[5px]'>Client:</span>
                     {project?.clientName}
-                  </li>
+                  </li> */}
                   <li>
-                    <span className='text-[#4D5660] mr-[5px]'>Completed:</span>
+                    <span className='text-[#4D5660] mr-[5px]'>Date:</span>
                     {project.completedDate}
                   </li>
-                  <li>
+                  {/* <li>
                     <span className='text-[#4D5660] mr-[5px]'>Architect:</span>
                     {project.architectName}
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <span className='text-[#4D5660] mr-[5px]'>Area:</span>
                     {project.squareUnits}
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
