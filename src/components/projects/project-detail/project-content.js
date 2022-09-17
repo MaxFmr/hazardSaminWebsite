@@ -16,7 +16,7 @@ function ProjectContent(props) {
 
   const images = [];
 
-  for (let index = 1; index < project.nbOfPhotos; index++) {
+  for (let index = 0; index < project.nbOfPhotos; index++) {
     images.push({
       original: `/images/projects/${project.id}/${index}.jpg`,
 

@@ -2,9 +2,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 function ProjectItem(props) {
-  const { title, category, excerpt, image, slug, id } = props.project;
+  const { title, category, excerpt, image, slug, id, nbOfPhotos } =
+    props.project;
 
-  const imagePath = `/images/projects/${id}/avant.jpg`;
+  const imagePath = `/images/projects/${id}/${image}`;
   const linkPath = `/projects/${slug}`;
 
   return (

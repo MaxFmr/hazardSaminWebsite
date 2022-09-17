@@ -5,6 +5,7 @@ title: 'Brossia Heigh Luxury Apartment'
 category: 'residenital'
 date: '2022-01-12'
 image: 1.jpg
+beforeImg: 10.jpg
 excerpt: Residenital
 location: Calle Blancos, Costa Rica
 clientName: Edna Smith

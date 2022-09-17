@@ -17,13 +17,12 @@ module.exports = {
         160: '160px',
       },
       backgroundImage: {
-        'pattern-1': "url('/images/background/pattern-1.png')",
         'page-banner-1': "url('/images/page-banner/1.jpg')",
         'page-banner-2': "url('/images/page-banner/2.jpg')",
         'new-post': "url('/images/background/new-post.jpg')",
         'new-post': "url('/images/background/new-post.jpg')",
-        p1: "url('/images/projects/1/1.jpg')",
-        p2: "url('/images/projects/2/2.jpg')",
+        p1: "url('/images/projects/1/11.jpg')",
+        p2: "url('/images/projects/2/6.jpg')",
         p3: "url('/images/projects/3/26.jpg')",
       },
       animation: {
