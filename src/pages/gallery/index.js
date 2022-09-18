@@ -15,14 +15,14 @@ const Gallery = ({}) => {
 
   for (let index = 1; index < 50; index++) {
     photosGallery.push({
-      original: `https://maximekerlidou.fr/photos/samin/_${index}.jpeg`,
-      thumbnail: `https://maximekerlidou.fr/photos/samin/_${index}.jpeg`,
+      original: `https://maximekerlidou.fr/photos/samin/_${index}.webp`,
+      thumbnail: `https://maximekerlidou.fr/photos/samin/_${index}.webp`,
     });
   }
   for (let index = 1; index < 50; index++) {
     photos.push({
       id: index,
-      url: `https://maximekerlidou.fr/photos/samin/_${index}.jpeg`,
+      url: `https://maximekerlidou.fr/photos/samin/_${index}.webp`,
       alt: 'décoration peinture faite par peintures Hazard-Samin',
     });
   }
