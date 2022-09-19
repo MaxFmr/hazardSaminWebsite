@@ -68,7 +68,7 @@ function Footer() {
               <div className='md:col-span-4 max-lm:order-last max-lm:pt-[10px]'>
                 <div className='copyright flex-wrap md:justify-start justify-center md:mb-0 mb-[10px]'>
                   © 2022 <span className='mx-1'>Artisan du web</span>
-                  développé et déployé à Cambrai par{' '}
+                  Site web développé et déployé à Cambrai par
                   <Link href='https://www.maximekerlidou.fr'>
                     <a target='_blank'>
                       <span> -</span>
@@ -77,11 +77,20 @@ function Footer() {
                   </Link>
                 </div>
               </div>
-              <div className='md:col-span-6'>
-                <ul className='footer-social-link md:mb-0 mb-[10px]'></ul>
+              <div className='copyright flex md:justify-start justify-center md:mb-0 mb-[10px]'>
+                Photographie/Vidéos créées à Valneciennes par
+                <Link href='https://www.bayardclement.fr'>
+                  <a target='_blank'>
+                    <span> -</span>
+                    <span>Clément Bayard</span>
+                  </a>
+                </Link>
               </div>
-              <div className='md:col-span-2'></div>
             </div>
+            <div className='md:col-span-6'>
+              <ul className='footer-social-link md:mb-0 mb-[10px]'></ul>
+            </div>
+            <div className='md:col-span-2'></div>
           </div>
         </div>
       </div>

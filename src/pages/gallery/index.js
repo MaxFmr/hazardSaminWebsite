@@ -41,7 +41,7 @@ const Gallery = ({}) => {
       </Head>
       <HeaderTwo />
       {clicked ? (
-        <div>
+        <div className=''>
           <button className=' ml-[80%] mt-16' onClick={() => setClicked(false)}>
             <Image
               src='/images/xmark-solid.svg'
@@ -58,17 +58,18 @@ const Gallery = ({}) => {
           />
         </div>
       ) : (
-        <div className=''>
+        <div className='mt-10 flex flex-wrap justify-center '>
           {photos.map((photo) => {
             const path = photo.url;
             return (
               <div
-                className=''
+                className='m-3'
                 key={photo.id}
                 onClick={() => {
                   handleClick(photo.id - 1);
                 }}>
                 <Image
+                  className='hover:opacity-80 cursor-pointer'
                   src={path}
                   height={500}
                   width={500}

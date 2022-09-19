@@ -32,7 +32,7 @@ function ProjectDetailPage(props) {
                     prevProject?.id + '/' + prevProject?.image
                   }')`,
                 }}>
-                Prev
+                Précédent
               </a>
             </Link>
             <Link href={`/projects/${nextProject?.slug}`}>
@@ -47,7 +47,7 @@ function ProjectDetailPage(props) {
                     nextProject?.id + '/' + nextProject?.image
                   }')`,
                 }}>
-                Next
+                Suivant
               </a>
             </Link>
           </div>

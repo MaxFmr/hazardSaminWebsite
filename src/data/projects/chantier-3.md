@@ -13,7 +13,7 @@ clientName:
 completedDate: Janvier 2022
 architectName:
 squareUnits:
-additionDesc: Une cheminé avec un rendu béton ciré noir, un parquet foncé, et cet intérieur moderne devient chaleureux. Peintures Hazard-Samin va plus loint et propose une menuiserie décorative en séparation cuisine/séjour et aussi, la conception, la fabrication et la pose de tout l'ameublement adapté, intégré.
+additionDesc: Une cheminé avec un rendu béton ciré noir, un parquet foncé, et cet intérieur moderne devient chaleureux. Peintures Hazard-Samin va plus loin et propose une menuiserie décorative en séparation cuisine/séjour et aussi, la conception, la fabrication et la pose de tout l'ameublement adapté, parfaitement intégré.
 isFeatured: true
 ---
 
