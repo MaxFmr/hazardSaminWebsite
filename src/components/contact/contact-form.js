@@ -51,7 +51,7 @@ function ContactForm() {
                 textAlign: 'justify',
                 justifyContent: 'center',
               }}>
-              <h2>Votre message a bien été envoyé à Peintures Hazard-Samin.</h2>
+              <h2>Votre message a bien été envoyé.</h2>
               <p>
                 Merci pour vôtre intérêt.
                 <br />
