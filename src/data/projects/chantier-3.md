@@ -1,7 +1,6 @@
 ---
 id: 3
-nbOfPhotos: 28
-
+nbOfPhotos: 27
 title: 'Ambiance chaleureuse'
 category: 'Décoration'
 date: '2022-01-12'

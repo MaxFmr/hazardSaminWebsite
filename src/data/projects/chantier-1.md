@@ -12,7 +12,7 @@ clientName:
 completedDate: 2022
 architectName:
 squareUnits:
-additionDesc: Cet escalier ancienne, typique du Nord, a été poncée peint et verni. Le mur principal est couvert d'un papier peint graphique, les couleurs choisies rapellent les carreaux de ciment d'oriqine et permettent la rencontre entre tradition et modernité.
+additionDesc: Cet escalier ancien, typique du Nord, a été poncée peint et verni. Le mur principal est couvert d'un papier peint graphique, les couleurs choisies rapellent les carreaux de ciment d'oriqine et permettent la rencontre entre tradition et modernité.
 isFeatured: true
 ---
 

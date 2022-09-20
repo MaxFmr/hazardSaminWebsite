@@ -78,9 +78,7 @@ function Footer() {
                       <span>Maxime KERLIDOU</span>
                     </a>
                   </Link>
-                  © 2022 <span className='mx-1'>Clément Bayard</span>
-                  Photographies et vidéos faites à Valenciennes par Clément
-                  Bayard
+                  © 2022 Photographies et vidéos faites à Valenciennes par
                   <Link href='https://www.bayardclement.fr'>
                     <a target='_blank'>
                       <span> -</span>
