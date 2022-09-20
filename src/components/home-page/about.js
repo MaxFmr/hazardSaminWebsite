@@ -22,11 +22,12 @@ function About() {
               </h3>
               <p className={desc}>
                 Fondée en 1971 par Robert Hazard, l’entreprise a été reprise en
-                2012 par Serge Samin. Habitée par le goût de l’excellence et du
+                2012 par Serge Samin. Habité par le goût de l’excellence et du
                 travail de qualité, Peintures Hazard-Samin est aujourd’hui un
-                acteur reconnu du marché de la décoration intérieure et peinture
-                extérieure dans le Valenciennois. L’équipe est aujourd’hui
-                composée d’un gérant, un apprenti, 5 peintres et une secrétaire.
+                acteur reconnu du marché de la décoration intérieure et
+                peintures extérieures dans le Valenciennois. L’équipe est
+                aujourd’hui composée d’un gérant, un apprenti, 5 peintres et une
+                secrétaire.
               </p>
               <div className='mt-10'>
                 <h4 className='mb-3'>
@@ -40,7 +41,7 @@ function About() {
                   <li>La peinture et décoration extérieure.</li>
                   <li>
                     L’Aménagements intérieurs, l’ameublement sur-mesure,
-                    installation, menuiserie...{' '}
+                    installation, menuiserie...
                   </li>
                 </ul>
               </div>
@@ -51,7 +52,7 @@ function About() {
                 <h2 className={title}>Conseil en décoration</h2>
 
                 <p>
-                  Pour tout devis signé, l’entreprise vos offres la prestation
+                  Pour tout devis signé, l’entreprise vos offre la prestation
                   d’une décoratrice professionnelle. Cette prestation implique,
                   la construction de plans, le choix des couleurs, des
                   matériaux, la proposition d’aménagements si besoin.

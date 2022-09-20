@@ -16,7 +16,7 @@ function Hero({ heroItems }) {
       <Swiper
         className='hero-area'
         speed={1000}
-        pagination={{ clickable: true, type: 'bullets' }}
+        pagination={{ clickable: false, type: 'bullets' }}
         spaceBetween={0}
         slidesPerView={1}
         loop={true}>
@@ -86,11 +86,6 @@ function Hero({ heroItems }) {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className='info text-white hover:text-primary transition-all text-[14px] uppercase absolute bottom-[100px] sm:right-[70px] right-auto z-[2] invisible lg:visible'>
-                  <Link href='email:hazar.samin@gmail.com'>
-                    {heroItem?.heroContactInfo}
-                  </Link>
                 </div>
               </div>
               <div className='mouse-btn-wrap absolute bottom-[30px] left-1/2 -translate-x-1/2'>

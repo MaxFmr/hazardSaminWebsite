@@ -79,7 +79,7 @@ function Footer() {
                     </a>
                   </Link>
                   © 2022 <span className='mx-1'>Clément Bayard</span>
-                  Photographie et vidéos faites à Valenciennes par Clément
+                  Photographies et vidéos faites à Valenciennes par Clément
                   Bayard
                   <Link href='https://www.bayardclement.fr'>
                     <a target='_blank'>

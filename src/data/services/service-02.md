@@ -4,4 +4,4 @@ icon: 'AiOutlineFormatPainter'
 path: '/about'
 ---
 
-Plus de 10 ans d'expérience au service de nos clients
+Plus de 40 ans d'expérience au service de nos clients
