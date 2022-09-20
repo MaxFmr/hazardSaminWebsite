@@ -311,7 +311,7 @@ textarea:focus-visible {
   @apply leading-[27px] mb-[15px] last:mb-0;
 }
 .footer-bottom .copyright {
-  @apply flex items-center;
+  @apply flex items-center w-[100%];
 }
 .footer-bottom .copyright {
   @apply flex items-center text-[#30373E] text-[14px] leading-6;

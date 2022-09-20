@@ -54,6 +54,9 @@ function Footer() {
                   <li>
                     <Link href='/projects'>Projets</Link>
                   </li>
+                  <li>
+                    <Link href='/legal'>Mentions légales</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -75,16 +78,16 @@ function Footer() {
                       <span>Maxime KERLIDOU</span>
                     </a>
                   </Link>
+                  © 2022 <span className='mx-1'>Clément Bayard</span>
+                  Photographie et vidéos faites à Valenciennes par Clément
+                  Bayard
+                  <Link href='https://www.bayardclement.fr'>
+                    <a target='_blank'>
+                      <span> -</span>
+                      <span>Clément Bayard</span>
+                    </a>
+                  </Link>
                 </div>
-              </div>
-              <div className='copyright flex md:justify-start justify-center md:mb-0 mb-[10px]'>
-                Photographie/Vidéos créées à Valneciennes par
-                <Link href='https://www.bayardclement.fr'>
-                  <a target='_blank'>
-                    <span> -</span>
-                    <span>Clément Bayard</span>
-                  </a>
-                </Link>
               </div>
             </div>
             <div className='md:col-span-6'>
