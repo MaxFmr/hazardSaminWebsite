@@ -1,5 +1,5 @@
 ---
-nbOfPhotos: 11
+nbOfPhotos: 13
 id: 1
 title: 'Escaliers, palier rénovés, ambiance moderne et graphique'
 category: 'Décoration'
