@@ -5,7 +5,6 @@ import { useRef } from 'react';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { ColorRing } from 'react-loader-spinner';
-import Image from 'next/image';
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 
@@ -20,13 +19,13 @@ function ContactForm() {
   const onCloseModal = () => setIsOpen(false);
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(e);
     emailjs
       .sendForm(
-        process.env.id,
-        process.env.template,
+        process.env.NEXT_PUBLIC_EMAILJS_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE,
         form.current,
-        process.env.apikey
+        process.env.NEXT_PUBLIC_EMAILJS_APIKEY
       )
       .then(setLoader(true))
       .then(
