@@ -1,9 +1,7 @@
 import ReactMarkdown from 'react-markdown';
-import Image from 'next/image';
 import ProjectBanner from './project-banner';
 import { Fragment } from 'react';
-import Link from 'next/link';
-import { IoMdGrid } from 'react-icons/io';
+
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 

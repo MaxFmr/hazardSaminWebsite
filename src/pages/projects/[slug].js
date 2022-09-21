@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { Fragment } from 'react';
-import HeaderOne from '../../components/header/header-1';
-import HeaderTwo from '../../components/header/header-2';
+
 import ProjectContent from '../../components/projects/project-detail/project-content';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import { AiFillCaretLeft, AiFillCaretRight } from 'react-icons/ai';

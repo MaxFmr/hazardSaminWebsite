@@ -28,8 +28,8 @@ function About() {
                 l’excellence et du travail de qualité, Peintures Hazard-Samin
                 est aujourd’hui un acteur reconnu du marché de la décoration
                 intérieure et peintures extérieures dans le Valenciennois.
-                L’équipe est aujourd’hui composée d’un gérant, un apprenti, 5
-                peintres et une secrétaire.
+                L’équipe est aujourd’hui composée de Serge Samin, le gérant, un
+                apprenti, 5 peintres et une secrétaire.
               </p>
               <div id='deco' className='mt-10 text-align: justify'>
                 <h4 className='mb-3'>
