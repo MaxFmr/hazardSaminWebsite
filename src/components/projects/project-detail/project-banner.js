@@ -7,8 +7,8 @@ function ProjectBanner(props) {
 
   return (
     <div className='project-banner relative'>
-      <div className='fixed text-white z-50 m-12 bg-black opacity-75 p-3 hover:bg-primary cursor-pointer'>
-        <Link href='/projects'>
+      <div className='fixed text-white z-50 m-12 bg-black opacity-75 p-3 hover:bg-primary cursor-pointer top-[70%] left-[60%] md:top-[80%] md:left-[80%] '>
+        <Link href='/projects' passHref>
           <BsFillBackspaceFill size={40} />
         </Link>
       </div>
