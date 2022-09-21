@@ -12,8 +12,8 @@ function About() {
     <div className='about-area md:pt-[150px] pt-[50px]'>
       <div className='container max-lg:max-w-full fixed-lg:pr-0'>
         <div
-          className='lg:grid lg:grid-cols-2 max-md:flex max-md:flex-col-reverse '
-          id='about'>
+          id='about'
+          className='lg:grid lg:grid-cols-2 max-md:flex max-md:flex-col-reverse '>
           <div className='about-content max-md:pt-10 '>
             <span className={subTitle}>A propos</span>
             <h2 className={title}>Plus de 40 ans d’expérience</h2>
@@ -22,7 +22,7 @@ function About() {
                 Pour une prestation haut-de-gamme <br /> Quelle que soit
                 l’ambition de notre client.
               </h3>
-              <p id='deco' className={desc}>
+              <p className={desc}>
                 Fondée en 1971 par Robert Hazard, l’entreprise a été reprise en
                 2012 par Serge Samin. Grâce à une équipe habitée par le goût de
                 l’excellence et du travail de qualité, Peintures Hazard-Samin
@@ -31,7 +31,7 @@ function About() {
                 L’équipe est aujourd’hui composée d’un gérant, un apprenti, 5
                 peintres et une secrétaire.
               </p>
-              <div className='mt-10 text-align: justify'>
+              <div id='deco' className='mt-10 text-align: justify'>
                 <h4 className='mb-3'>
                   <strong>L’entreprise vous propose :</strong>
                 </h4>
