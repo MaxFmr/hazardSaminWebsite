@@ -35,11 +35,6 @@ function ProjectContent(props) {
           <Fragment>
             <div className='project-upper-box md:pt-[150px] pt-[55px]'>
               <div className='container'>
-                <Link href='/projects'>
-                  <a className='sticky boxed-btn text-[18px] leading-[30px] mb-10 '>
-                    Retour aux projets
-                  </a>
-                </Link>
                 <ul className='info grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-3'>
                   <li>
                     <span className='text-[#4D5660] mr-[5px]'>Région:</span>
@@ -66,7 +61,7 @@ function ProjectContent(props) {
             </div>
             <div className='project-description md:pt-[80px] pt-[40px]'>
               <div className='container'>
-                <div className='content'>
+                <div className='content' id='description'>
                   <h2 className='text-[36px] leading-[58px] pb-10'>
                     Description
                   </h2>

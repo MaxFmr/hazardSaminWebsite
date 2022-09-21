@@ -10,6 +10,7 @@ function WhiteLogo() {
           alt='Logo'
           width={150}
           height={150}
+          layout='intrinsic'
         />
       </a>
     </Link>

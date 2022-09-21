@@ -32,6 +32,13 @@ function ProjectBanner(props) {
               {title}
             </h2>
           </div>
+          <Link href='#description' passHref>
+            <ul className='mouse-btn-down'>
+              <li className='chevron animate-move'></li>
+              <li className='chevron animate-move2'></li>
+              <li className='chevron animate-move3'></li>
+            </ul>
+          </Link>
         </div>
       </div>
     </div>
