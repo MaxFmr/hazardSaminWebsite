@@ -54,7 +54,7 @@ function About() {
                 <h2 className={title}>Conseil en décoration</h2>
 
                 <p>
-                  Pour tout devis signé, l’entreprise vos offre la prestation
+                  Pour tout devis signé, l’entreprise vous offre la prestation
                   d’une décoratrice professionnelle. Cette prestation implique,
                   la construction de plans, le choix des couleurs, des
                   matériaux, la proposition d’aménagements si besoin.
