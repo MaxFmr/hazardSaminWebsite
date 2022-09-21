@@ -41,7 +41,9 @@ function ContactForm() {
 
   return (
     <>
-      <div className='contact-area md:pt-[145px] pt-[45px] border-[#595959] border-opacity-30 border-b md:pb-160 pb-[60px]'>
+      <div
+        id='contact'
+        className='contact-area md:pt-[145px] pt-[45px] border-[#595959] border-opacity-30 border-b md:pb-160 pb-[60px]'>
         <div className='container'>
           <Modal open={modalIsOpen} onClose={onCloseModal} center>
             <div

@@ -78,9 +78,9 @@ function Hero({ heroItems }) {
                           __html: heroItem?.heroTitle4,
                         }}></h2>
                       <div className='hero-slidedown delay-[1200ms] mt-12'>
-                        <Link href='/contact'>
+                        <Link href='/contact#contact'>
                           <a className='boxed-btn text-[18px] leading-[30px]'>
-                            Contactez-nous
+                            Contactez - nous
                           </a>
                         </Link>
                       </div>

@@ -84,10 +84,10 @@ textarea:focus-visible {
   @apply before:bottom-auto before:top-0;
 }
 .is-sticky.sticky-style-1 {
-  @apply bg-[#3790cc] opacity-80;
+  @apply bg-[#3790cc] opacity-90;
 }
 .sticky-style-2 {
-  @apply bg-[#3790cc] opacity-80;
+  @apply bg-[#3790cc] opacity-90;
 }
 
 .language-list {
