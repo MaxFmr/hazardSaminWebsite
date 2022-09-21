@@ -6,5 +6,5 @@ facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
 memberName: Sebastien SAMIN
-designation: Peintre qualifié
+designation: Peintre hautement qualifié
 ---

@@ -5,7 +5,9 @@ import * as FaIcons from 'react-icons/fa';
 function Team({ teamItems }) {
   const teamMemberImage = `relative before:hover:absolute before:opacity-[0.5] before:duration-500 before:pointer-events-none before:z-[1]`;
   return (
-    <div className='team-area md:py-155 py-[55px] border-[#dfdfdf] border-b'>
+    <div
+      id='team'
+      className='team-area md:py-155 py-[55px] border-[#dfdfdf] border-b'>
       <div className='container'>
         <h2 className='lm:text-[42px] text-[32px] lm:leading-[50px] mb-[60px]'>
           Profressionels et Passionnés

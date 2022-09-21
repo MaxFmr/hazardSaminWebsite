@@ -1,10 +1,18 @@
 import Image from 'next/image';
+import { BsFillBackspaceFill } from 'react-icons/bs';
+import Link from 'next/link';
 
 function ProjectBanner(props) {
   const { title, excerpt, image } = props;
 
   return (
     <div className='project-banner relative'>
+      <div className='fixed text-white z-50 m-12 bg-black opacity-75 p-3 hover:bg-primary cursor-pointer'>
+        <Link href='/projects'>
+          <BsFillBackspaceFill size={40} />
+        </Link>
+      </div>
+
       <div className=' w-full lg:h-[980px] h-[550px] before:absolute before:bg-black before:opacity-10 before:w-full before:h-full before:z-[1]'>
         <Image
           src={image}

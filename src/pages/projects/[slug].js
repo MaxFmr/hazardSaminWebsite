@@ -2,8 +2,10 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { Fragment } from 'react';
 import HeaderOne from '../../components/header/header-1';
+import HeaderTwo from '../../components/header/header-2';
 import ProjectContent from '../../components/projects/project-detail/project-content';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
+import { AiFillCaretLeft, AiFillCaretRight } from 'react-icons/ai';
 
 function ProjectDetailPage(props) {
   const { prevProject, nextProject } = props;
@@ -14,7 +16,6 @@ function ProjectDetailPage(props) {
         <title>{props.project.title}</title>
         <meta name='description' content={props.project.excerpt} />
       </Head>
-      <HeaderOne />
       <ProjectContent project={props.project} />
 
       <div className='project-pagination' style={{ marginTop: '40px' }}>
@@ -32,7 +33,7 @@ function ProjectDetailPage(props) {
                     prevProject?.id + '/' + prevProject?.image
                   }')`,
                 }}>
-                Précédent
+                <AiFillCaretLeft size={40} />
               </a>
             </Link>
             <Link href={`/projects/${nextProject?.slug}`}>
@@ -47,7 +48,7 @@ function ProjectDetailPage(props) {
                     nextProject?.id + '/' + nextProject?.image
                   }')`,
                 }}>
-                Suivant
+                <AiFillCaretRight size={40} />
               </a>
             </Link>
           </div>

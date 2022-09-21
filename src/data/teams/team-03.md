@@ -6,5 +6,5 @@ facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
 memberName: Gwendal FLORENCEAU
-designation: Peintre qualifié
+designation: Peintre hautement qualifié
 ---

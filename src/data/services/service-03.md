@@ -1,7 +1,7 @@
 ---
 title: 'Une Equipe'
 icon: 'AiOutlineTeam'
-path: '/about'
+path: '/about#team'
 ---
 
 Une équipe de professionnels à votre écoute

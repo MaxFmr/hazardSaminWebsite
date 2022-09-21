@@ -35,14 +35,11 @@ function ProjectContent(props) {
           <Fragment>
             <div className='project-upper-box md:pt-[150px] pt-[55px]'>
               <div className='container'>
-                <div className='navigation pb-[50px]'>
-                  <Link href='/projects'>
-                    <a className='flex items-center text-[14px] leading-6 uppercase'>
-                      <IoMdGrid className='text-[20px] mr-5' />
-                      Retour aux projets
-                    </a>
-                  </Link>
-                </div>
+                <Link href='/projects'>
+                  <a className='sticky boxed-btn text-[18px] leading-[30px] mb-10 '>
+                    Retour aux projets
+                  </a>
+                </Link>
                 <ul className='info grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-3'>
                   <li>
                     <span className='text-[#4D5660] mr-[5px]'>Région:</span>
