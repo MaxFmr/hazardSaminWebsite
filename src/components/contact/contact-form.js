@@ -34,7 +34,7 @@ function ContactForm() {
           setLoader(false);
         },
         (error) => {
-          console.log(error.text);
+          alert(error.text);
         }
       );
   };
