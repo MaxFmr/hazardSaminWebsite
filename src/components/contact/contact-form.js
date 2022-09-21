@@ -19,7 +19,6 @@ function ContactForm() {
   const onCloseModal = () => setIsOpen(false);
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(e);
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_EMAILJS_ID,
