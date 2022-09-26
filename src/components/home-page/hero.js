@@ -14,6 +14,7 @@ function Hero({ heroItems }) {
   return (
     <>
       <Swiper
+        touchRatio={0}
         className='hero-area'
         speed={1000}
         pagination={{ clickable: false, type: 'bullets' }}
