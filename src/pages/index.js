@@ -16,7 +16,7 @@ function HomePage(props) {
         <title>Peinture Hazard-Samin</title>
         <meta
           name='google-site-verification'
-          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+          content='YvTIft4XGDXwZTAbiex5wwvb7V5t3fA9V3bL5VIOF10'
         />
         <meta
           name='description'
