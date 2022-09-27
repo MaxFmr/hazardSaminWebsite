@@ -13,7 +13,7 @@ function ProjectDetailPage(props) {
     <Fragment>
       <Head>
         <title>{props.project.title}</title>
-        <meta name='description' content={props.project.excerpt} />
+        <meta name='description' content={props.project.additionDesc} />
       </Head>
       <ProjectContent project={props.project} />
 

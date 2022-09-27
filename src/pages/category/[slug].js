@@ -11,10 +11,7 @@ import Head from 'next/head';
 const CategoryPostPage = ({ posts, categories, tags }) => {
   return (
     <Fragment>
-      <Head>
-        <title>Posts Category</title>
-        <meta name='description' content='Rustic posts!' />
-      </Head>
+      <Head></Head>
       <HeaderTwo />
       <Breadcrumb activePage={'Actus'} pageTitle={'Nos Actualités'} />
       <AllItems posts={posts} categories={categories} tags={tags} />

@@ -12,7 +12,7 @@ function allItemsPage(props) {
         <title>Chantiers</title>
         <meta
           name='description'
-          content='Exemples de chantiers réalisés par l’entreprise peintures Hazard-Samin'
+          content='Exemples de trois chantiers réalisés par l’entreprise peintures Hazard-Samin, Serge Samin et son équipe. Peinture, revêtements, murs, sol, ameublement sur mesure, aménagements'
         />
       </Head>
       <HeaderTwo />

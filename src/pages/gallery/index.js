@@ -36,7 +36,7 @@ const Gallery = ({}) => {
         <title>Gallerie Photo</title>
         <meta
           name='description'
-          content="Gallerie rassemblant l'ensembles des photos de chantier de l'entreprise Peintures Hazard-Samin"
+          content="Gallerie photo rassemblant l'ensemble des photos de chantier de l'entreprise Peintures Hazard-Samin, peinture, revêtements, murs, sol, ameublement sur mesure, aménagements"
         />
       </Head>
       <HeaderTwo />

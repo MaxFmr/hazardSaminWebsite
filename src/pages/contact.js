@@ -9,7 +9,10 @@ function ContactPage() {
     <Fragment>
       <Head>
         <title>Contactez-nous</title>
-        <meta name='description' content='Send us your messages!' />
+        <meta
+          name='description'
+          content='Retrouvez les informations de contact de l’entreprise Peintures Hazard-Samin, téléphone, formulaire de contact, adresse : 7 Rue Charles Cros, 59300 Aulnoy-Lez-Valenciennes.'
+        />
       </Head>
       <HeaderTwo />
       <GoogleMap />

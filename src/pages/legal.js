@@ -8,16 +8,11 @@ const Legal = () => {
         <title>Peintures Hazard-Samin - mentions légales</title>
 
         <meta
-          name='google-site-verification'
-          content='in-m5_OE0zu4tynnaNxglz5PwRysymFgWQwl2p-BwMI'
+          name='description'
+          content='Mentions légales du site web de Peintures-Hazard-Samin'
         />
-        <meta name='description' content='Mentions légales' />
         <meta property='og:title' content='Mentions légales' />
 
-        <meta
-          property='og:url'
-          content='https://peintures-hazard-samin.fr/legal'
-        />
         <meta property='og:type' content='website' />
       </Head>
       <HeaderTwo />
