@@ -31,9 +31,16 @@ function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href='tel:+0084-912-3548-073'>
+                    <Link href='tel:+33327439970'>
                       <a className='hover:text-black transition-all'>
                         03 27 43 99 70
+                      </a>
+                    </Link>
+                    <br />
+
+                    <Link href='tel:+33672740858'>
+                      <a className='hover:text-black transition-all'>
+                        06 72 74 08 58
                       </a>
                     </Link>
                   </li>

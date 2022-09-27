@@ -76,8 +76,12 @@ function ContactForm() {
                   7 RUE CHARLES CROS 59300 AULNOY- LEZ-VALENCIENNES
                 </li>
                 <li className='pb-[15px]'>
-                  <Link href='tel: +33327439970'>
-                    <a> 03 27 43 99 70</a>
+                  <Link href='tel:+33327439970'>
+                    <a>03 27 43 99 70</a>
+                  </Link>
+                  <br />
+                  <Link href='tel:+33672740858'>
+                    <a>06 72 74 08 58</a>
                   </Link>
                 </li>
                 <li>
