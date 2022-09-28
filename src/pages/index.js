@@ -24,15 +24,20 @@ function HomePage(props) {
           content='Peintures Hazard-Samin, artisan peintre à Valenciennes, site officiel. Notre entreprise de peinture en batiment, décoration d’intérieur et revêtements de sol est située à Aulnoye-Lez-Valenciennes et reconnue dans le Valenciennois'
         />
       </Head>
-      <div className='container'>
-        <Script id='google-analytics' strategy='afterInteractive'>
-          {`
-          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-          ga('create', 'G-N7D6C32BNJ', 'auto');
-          ga('send', 'pageview');
+
+      <Script
+        async
+        src='https://www.googletagmanager.com/gtag/js?id=G-N7D6C32BNJ'
+        id='google-analytics'
+        strategy='afterInteractive'>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-N7D6C32BNJ');
         `}
-        </Script>
-      </div>
+      </Script>
       <HeaderOne />
       <Hero heroItems={props.heroItems} />
       <Services services={props.services} />
