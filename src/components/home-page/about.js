@@ -77,7 +77,7 @@ function About() {
               muted
               loop
               src='https://www.maximekerlidou.fr/videos/samin/pinceau.mp4'
-              alt='Service Image'
+              alt='Video pinceau peintures hazard samin'
               width={390}
               height={760}
               playsInline

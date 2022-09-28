@@ -12,7 +12,7 @@ function Footer() {
               <div className='footer-logo'>
                 <Image
                   src='/images/logo/logo.svg'
-                  alt='Logo'
+                  alt='Logo peintures hazard samin'
                   width={70}
                   height={70}
                 />

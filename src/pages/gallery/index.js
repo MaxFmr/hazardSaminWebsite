@@ -23,7 +23,7 @@ const Gallery = ({}) => {
     photos.push({
       id: index,
       url: `https://maximekerlidou.fr/photos/samin/_${index}.webp`,
-      alt: 'décoration peinture faite par peintures Hazard-Samin',
+      alt: 'chantier décoration peinture faite par peintures Hazard Samin',
     });
   }
   const handleClick = (id) => {
