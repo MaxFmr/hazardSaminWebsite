@@ -112,7 +112,7 @@ function HeaderTwo() {
                   <a>
                     <Image
                       src='/images/logo/logo.svg'
-                      alt='Logo'
+                      alt='Logo Peintures Hazard Samin'
                       width={70}
                       height={70}
                     />

@@ -36,6 +36,35 @@ function HomePage(props) {
           name='description'
           content='Peintures Hazard-Samin, artisan peintre à Valenciennes, site officiel. Notre entreprise de peinture en batiment, décoration d’intérieur et revêtements de sol est située à Aulnoye-Lez-Valenciennes et reconnue dans le Valenciennois'
         />
+        <meta
+          property='og:url'
+          content='https://www.peintureshazardsamin.com'
+        />
+        <meta
+          property='og:video'
+          content='https://www.maximekerlidou.fr/videos/samin/videobanner.mp4'
+        />
+        <meta
+          property='og:video'
+          content='https://www.maximekerlidou.fr/videos/samin/video.mp4'
+        />
+        <meta
+          property='og:video'
+          content='https://www.maximekerlidou.fr/videos/samin/pinceau.mp4'
+        />
+        <meta property='url' content='https://www.peintureshazardsamin.com' />
+        <meta
+          property='video'
+          content='https://www.maximekerlidou.fr/videos/samin/videobanner.mp4'
+        />
+        <meta
+          property='video'
+          content='https://www.maximekerlidou.fr/videos/samin/video.mp4'
+        />
+        <meta
+          property='video'
+          content='https://www.maximekerlidou.fr/videos/samin/pinceau.mp4'
+        />
       </Head>
 
       <HeaderOne />

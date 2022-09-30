@@ -14,6 +14,11 @@ function ProjectDetailPage(props) {
       <Head>
         <title>{props.project.title}</title>
         <meta name='description' content={props.project.additionDesc} />
+        <meta
+          property='image'
+          content={`/images/projects/${props.project.id}/${props.project.image}`}
+        />
+        ;
       </Head>
       <ProjectContent project={props.project} />
 

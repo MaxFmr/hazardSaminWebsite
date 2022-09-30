@@ -119,7 +119,7 @@ function HeaderOne() {
                   <a>
                     <Image
                       src='/images/logo/logo.svg'
-                      alt='Logo'
+                      alt='Logo Peitures Hazard Samin'
                       width={90}
                       height={90}
                     />
