@@ -10,7 +10,7 @@ function Team({ teamItems }) {
       className='team-area md:py-155 py-[55px] border-[#dfdfdf] border-b'>
       <div className='container'>
         <h2 className='lm:text-[42px] text-[32px] lm:leading-[50px] mb-[60px]'>
-          Profressionels et Passionnés
+          Professionels et Passionnés
         </h2>
         <div className='grid sm:grid-cols-12 lg:gap-x-[70px] fixed-md:gap-x-[30px] gap-[30px]'>
           {teamItems?.map((teamItem, i) => {
