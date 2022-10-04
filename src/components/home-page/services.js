@@ -14,7 +14,7 @@ function Services({ services }) {
               </span>
               <h1 className='title text-black lm:text-[42px] lm:leading-[50px] text-[32px] mb-[60px]'>
                 Les meilleures solutions pour
-                <br /> votre intérieur.
+                <br /> votre intérieur
               </h1>
               <div className='fixed-md:grid fixed-md:grid-cols-2 grid max-md:gap-[25px]'>
                 {services?.map((service) => {
