@@ -13,7 +13,7 @@ function Services({ services }) {
                 Notre métier
               </span>
               <h1 className='title text-black lm:text-[42px] lm:leading-[50px] text-[32px] mb-[60px]'>
-                Les meilleurs solutions pour
+                Les meilleures solutions pour
                 <br /> votre intérieur.
               </h1>
               <div className='fixed-md:grid fixed-md:grid-cols-2 grid max-md:gap-[25px]'>
