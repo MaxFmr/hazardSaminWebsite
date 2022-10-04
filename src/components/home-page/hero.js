@@ -30,7 +30,7 @@ function Hero({ heroItems }) {
               <div className={heroImage}>
                 <video
                   playsInline
-                  src='https://www.maximekerlidou.fr/videos/samin/videobanner.mp4'
+                  src='https://www.maximekerlidou.fr/videos/videobanner.mp4'
                   muted
                   loop
                   autoPlay
