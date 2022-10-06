@@ -40,10 +40,7 @@ function HomePage(props) {
           property='og:url'
           content='https://www.peintureshazardsamin.com'
         />
-        <meta
-          property='og:video'
-          content='https://www.maximekerlidou.fr/videos/samin/videobanner.mp4'
-        />
+
         <meta
           property='og:video'
           content='https://www.maximekerlidou.fr/videos/samin/video.mp4'
