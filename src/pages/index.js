@@ -34,7 +34,7 @@ function HomePage(props) {
         />
         <meta
           name='description'
-          content='Peintures Hazard-Samin, artisan peintre à Valenciennes, site officiel. Notre entreprise de peinture en batiment, décoration d’intérieur et revêtements de sol est située à Aulnoye-Lez-Valenciennes et reconnue dans le Valenciennois'
+          content='Peintures Hazard-Samin, artisan peintre à Valenciennes, site officiel. Notre entreprise de peinture en batiment, décoration d’intérieur et revêtements de sol et aménagements intérieurs est située à Aulnoye-Lez-Valenciennes et reconnue dans le Valenciennois'
         />
         <meta
           property='og:url'
