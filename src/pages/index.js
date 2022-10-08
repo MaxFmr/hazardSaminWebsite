@@ -15,7 +15,7 @@ function HomePage(props) {
     <Fragment>
       <Script
         async
-        src='https://www.googletagmanager.com/gtag/js?id=G-N7D6C32BNJ'
+        src='https://www.googletagmanager.com/gtag/js?id=G-BE97CHWEM0'
         id='google-analytics'
         strategy='afterInteractive'>
         {`
@@ -23,7 +23,7 @@ function HomePage(props) {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
-            gtag('config', 'G-N7D6C32BNJ');
+            gtag('config', 'G-BE97CHWEM0');
         `}
       </Script>
 
