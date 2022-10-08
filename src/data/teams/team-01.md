@@ -5,6 +5,6 @@ twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
-memberName: Maxime COMBRE
+memberName: Maxime COMBRÉ
 designation: Peintre hautement qualifié
 ---
