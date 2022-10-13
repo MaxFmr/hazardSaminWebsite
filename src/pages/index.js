@@ -13,21 +13,20 @@ import LatestProject from '../components/home-page/latest-project';
 function HomePage(props) {
   return (
     <Fragment>
-      <Script
-        async
-        src='https://www.googletagmanager.com/gtag/js?id=G-BE97CHWEM0'
-        id='google-analytics'
-        strategy='afterInteractive'>
-        {`
+      <Head>
+        <Script
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=G-BE97CHWEM0'
+          id='google-analytics'
+          strategy='afterInteractive'>
+          {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
             gtag('config', 'G-BE97CHWEM0');
         `}
-      </Script>
-
-      <Head>
+        </Script>
         <title>Peinture Hazard-Samin</title>
         <meta
           name='google-site-verification'
