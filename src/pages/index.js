@@ -16,15 +16,15 @@ function HomePage(props) {
       <Head>
         <Script
           async
-          src='https://www.googletagmanager.com/gtag/js?id=G-BE97CHWEM0'
+          src='https://www.googletagmanager.com/gtag/js?id=G-9PFT7PZH9R'
           id='google-analytics'
           strategy='afterInteractive'>
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'G-BE97CHWEM0');
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-9PFT7PZH9R');
         `}
         </Script>
         <title>Peinture Hazard-Samin</title>
