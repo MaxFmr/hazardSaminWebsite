@@ -14,19 +14,6 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <Script
-          async
-          src='https://www.googletagmanager.com/gtag/js?id=G-9PFT7PZH9R'
-          id='google-analytics'
-          strategy='afterInteractive'>
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-9PFT7PZH9R');
-        `}
-        </Script>
         <title>Peinture Hazard-Samin</title>
         <meta
           name='google-site-verification'
