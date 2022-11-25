@@ -47,7 +47,7 @@ function Services({ services }) {
             <div className='service-image flex justify-end w-full lg:h-full relative '>
               <video
                 playsInline
-                src='https://www.maximekerlidou.fr/videos/video.mp4'
+                src='https://www.maximekerlidou.fr/videos/samin.mp4'
                 controls
                 className='object-cover self-center h-[480px] '
               />
