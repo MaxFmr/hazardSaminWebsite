@@ -6,7 +6,6 @@ import Hero from '../components/home-page/hero';
 import Services from '../components/home-page/services';
 import About from '../components/home-page/about';
 import Testimonial from '../components/home-page/testimonial';
-import Script from 'next/script';
 
 import LatestProject from '../components/home-page/latest-project';
 
