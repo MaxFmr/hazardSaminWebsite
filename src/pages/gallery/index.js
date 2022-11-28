@@ -13,7 +13,7 @@ const Gallery = ({}) => {
 
   let photosGallery = [];
 
-  for (let index = 1; index < 50; index++) {
+  for (let index = 1; index < 190; index++) {
     photosGallery.push({
       original: `https://maximekerlidou.fr/photos/samin/_${index}.webp`,
       thumbnail: `https://maximekerlidou.fr/photos/samin/_${index}.webp`,
