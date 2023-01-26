@@ -40,6 +40,7 @@ function Hero({ heroItems }) {
                     width: '100%',
                   }}></video>
               </div>
+              
               <div className='container custom-container'>
                 <div className={heroContent}>
                   <div className='hero-inner grid grid-cols-12'>
