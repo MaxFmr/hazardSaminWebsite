@@ -17,7 +17,7 @@ function HeaderOne() {
       window.removeEventListener('scroll', isSticky);
     };
   });
-
+//
   const isSticky = (e) => {
     const header = document.querySelector('.header-section');
     const scrollTop = window.scrollY;
