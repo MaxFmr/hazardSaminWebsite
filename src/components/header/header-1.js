@@ -60,7 +60,7 @@ function HeaderOne() {
                       }>
                       <Link href='/projects'>
                         <a>
-                          <span>Nos chantiers</span>
+                          <span>Chantiers</span>
                         </a>
                       </Link>
                     </li>
@@ -83,7 +83,7 @@ function HeaderOne() {
                       className={router.pathname == '/gallery' ? 'active' : ''}>
                       <Link href='/gallery'>
                         <a>
-                          <span>gallerie photo</span>
+                          <span>Gallerie</span>
                         </a>
                       </Link>
                     </li>
