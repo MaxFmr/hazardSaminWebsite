@@ -50,7 +50,7 @@ function HeaderTwo() {
                   <li className={router.pathname == '/about' ? 'active' : ''}>
                     <Link href='/about'>
                       <a>
-                        <span>L'entreprise</span>
+                        <span>L’entreprise</span>
                       </a>
                     </Link>
                   </li>
