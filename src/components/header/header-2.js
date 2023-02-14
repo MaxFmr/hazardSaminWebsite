@@ -58,7 +58,7 @@ function HeaderTwo() {
                     className={router.pathname == '/projects' ? 'active' : ''}>
                     <Link href='/projects'>
                       <a>
-                        <span>Nos Chantiers</span>
+                        <span>Chantiers</span>
                       </a>
                     </Link>
                   </li>
@@ -79,7 +79,7 @@ function HeaderTwo() {
                   <li className={router.pathname == '/gallery' ? 'active' : ''}>
                     <Link href='gallery'>
                       <a>
-                        <span>gallerie photo</span>
+                        <span>Gallerie</span>
                       </a>
                     </Link>
                   </li>
