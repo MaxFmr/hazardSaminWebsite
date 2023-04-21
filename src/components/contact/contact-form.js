@@ -1,41 +1,49 @@
 import Link from 'next/link';
 import emailjs from '@emailjs/browser';
-
 import { useRef } from 'react';
 import { useState } from 'react';
-import { useRouter } from 'next/router';
 import { ColorRing } from 'react-loader-spinner';
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
+import ReCAPTCHA from 'react-google-recaptcha';
+import axios from 'axios';
 
 function ContactForm() {
   const form = useRef();
-  const router = useRouter();
+  const captchaRef = useRef(null);
 
   const [loader, setLoader] = useState(false);
   const [modalIsOpen, setIsOpen] = useState(false);
 
   const OpenModal = () => setIsOpen(true);
   const onCloseModal = () => setIsOpen(false);
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
+    //captcha token
+    const token = captchaRef.current.getValue();
     e.preventDefault();
-    emailjs
-      .sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE,
-        form.current,
-        process.env.NEXT_PUBLIC_EMAILJS_APIKEY
-      )
-      .then(setLoader(true))
-      .then(
-        (result) => {
-          OpenModal();
-          setLoader(false);
-        },
-        (error) => {
-          alert(error.text);
-        }
-      );
+    captchaRef.current.reset();
+
+    try {
+      const response = await axios.post('/api/captcha', { token });
+      if (response.data.success === true) {
+        emailjs
+          .sendForm(
+            process.env.NEXT_PUBLIC_EMAILJS_ID,
+            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE,
+            form.current,
+            process.env.NEXT_PUBLIC_EMAILJS_APIKEY
+          )
+          .then(setLoader(true))
+          .then(() => {
+            setLoader(false);
+            OpenModal();
+          });
+      } else {
+        alert('Le captcha a échoué, vous êtes considéré comme un robot');
+      }
+    } catch (error) {
+      alert(error.text);
+    }
   };
 
   return (
@@ -126,7 +134,11 @@ function ContactForm() {
                       required
                       name='message'></textarea>
                   </div>
-
+                  <ReCAPTCHA
+                    className='mt-[35px]'
+                    sitekey={process.env.NEXT_PUBLIC_CAPTCHA_SECRET_KEY}
+                    ref={captchaRef}
+                  />
                   <div className='mt-[55px]'>
                     <button className='boxed-btn text-[14px] leading-[30px]'>
                       Envoyer
