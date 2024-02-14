@@ -1,19 +1,24 @@
-import { getPostCategories } from '../../lib/getPostCategories';
-import { getPostTags } from '../../lib/getPostTags';
-import { getAllItems } from '../../lib/items-util';
-import Breadcrumb from '../../components/breadcrumb';
-import HeaderTwo from '../../components/header/header-2';
+import { getPostCategories } from "../../lib/getPostCategories";
+import { getPostTags } from "../../lib/getPostTags";
+import { getAllItems } from "../../lib/items-util";
+import Breadcrumb from "../../components/breadcrumb";
+import HeaderTwo from "../../components/header/header-2";
 
-import AllItems from '../../components/posts/all-items';
-import { Fragment } from 'react';
-import Head from 'next/head';
+import AllItems from "../../components/posts/all-items";
+import { Fragment } from "react";
+import Head from "next/head";
 
 const CategoryPostPage = ({ posts, categories, tags }) => {
   return (
     <Fragment>
-      <Head></Head>
+      <Head>
+        <meta
+          name="description"
+          content="Spécialiste de la peinture en bâtiment à Valenciennes. Nous offrons des services de haute qualité pour tous vos projets de peinture intérieure et extérieure."
+        />
+      </Head>
       <HeaderTwo />
-      <Breadcrumb activePage={'Actus'} pageTitle={'Nos Actualités'} />
+      <Breadcrumb activePage={"Actus"} pageTitle={"Nos Actualités"} />
       <AllItems posts={posts} categories={categories} tags={tags} />
     </Fragment>
   );
@@ -21,7 +26,7 @@ const CategoryPostPage = ({ posts, categories, tags }) => {
 
 export const getStaticProps = ({ params }) => {
   const { slug } = params;
-  const posts = getAllItems('posts');
+  const posts = getAllItems("posts");
   const filteredPosts = posts
     .map((post) => ({
       ...post,

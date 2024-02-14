@@ -1,19 +1,24 @@
-import Head from 'next/head';
-import { Fragment } from 'react';
-import Services from '../components/home-page/services';
-import About from '../components/home-page/about';
-import Testimonial from '../components/home-page/testimonial';
-import { getAllItems } from '../lib/items-util';
-import Brand from '../components/home-page/brand';
-import PageBanner from '../components/page-banner/index';
-import Team from '../components/team';
-import HeaderTwo from '../components/header/header-2';
+import Head from "next/head";
+import { Fragment } from "react";
+import Services from "../components/home-page/services";
+import About from "../components/home-page/about";
+import Testimonial from "../components/home-page/testimonial";
+import { getAllItems } from "../lib/items-util";
+import Brand from "../components/home-page/brand";
+import PageBanner from "../components/page-banner/index";
+import Team from "../components/team";
+import HeaderTwo from "../components/header/header-2";
 
 function AboutPage(props) {
   return (
     <Fragment>
       <Head>
         <title>A propos</title>
+
+        <meta
+          name="description"
+          content="Spécialiste de la peinture en bâtiment à Valenciennes. Nous offrons des services de haute qualité pour tous vos projets de peinture intérieure et extérieure."
+        />
       </Head>
       <HeaderTwo />
       <About />
@@ -26,10 +31,10 @@ function AboutPage(props) {
 }
 
 export function getStaticProps() {
-  const services = getAllItems('services');
-  const testimonialItems = getAllItems('testimonial');
-  const brandItems = getAllItems('brands');
-  const teamItems = getAllItems('teams');
+  const services = getAllItems("services");
+  const testimonialItems = getAllItems("testimonial");
+  const brandItems = getAllItems("brands");
+  const teamItems = getAllItems("teams");
 
   return {
     props: {

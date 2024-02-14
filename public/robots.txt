@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.peintureshazardsamin.com
+Host: https://www.peintureshazardsamin.com/
 
 # Sitemaps
 Sitemap: https://www.peintureshazardsamin.com/sitemap.xml
