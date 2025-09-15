@@ -1,10 +1,10 @@
 ---
-title: Peintre qualifié, spécialiste sols et aménagements intérieurs
-image: /images/team/p1.jpg
+title: peintre
+image: /images/team/p2.jpg
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
-memberName: Maxime CROMBE
+memberName: Maxime LEDROLE
 designation: Peintre hautement qualifié
 ---

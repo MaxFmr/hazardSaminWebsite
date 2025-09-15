@@ -1,28 +1,31 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import * as FaIcons from 'react-icons/fa';
+import Image from "next/image";
+import Link from "next/link";
+import * as FaIcons from "react-icons/fa";
 
 function Team({ teamItems }) {
   const teamMemberImage = `relative before:hover:absolute before:opacity-[0.5] before:duration-500 before:pointer-events-none before:z-[1]`;
   return (
     <div
-      id='team'
-      className='team-area md:py-155 py-[55px] border-[#dfdfdf] border-b'>
-      <div className='container'>
-        <h2 className='lm:text-[42px] text-[32px] lm:leading-[50px] mb-[60px]'>
+      id="team"
+      className="team-area md:py-155 py-[55px] border-[#dfdfdf] border-b"
+    >
+      <div className="container">
+        <h2 className="lm:text-[42px] text-[32px] lm:leading-[50px] mb-[60px]">
           Professionels et Passionnés
         </h2>
-        <div className='grid sm:grid-cols-12 lg:gap-x-[70px] fixed-md:gap-x-[30px] gap-[30px]'>
+        <div className="grid sm:grid-cols-12 lg:gap-x-[70px] fixed-md:gap-x-[30px] gap-[30px]">
           {teamItems?.map((teamItem, i) => {
             const TwitterIcon = FaIcons[teamItem?.twitterIcon];
             const FacebookIcon = FaIcons[teamItem?.facebookIcon];
             const InstagramIcon = FaIcons[teamItem?.instagramIcon];
             const LinkedinIcon = FaIcons[teamItem?.linkedinIcon];
+
             return (
               <div
-                className='md:col-span-4 fixed-lm:col-span-6 fixed-sm:col-span-6'
-                key={i}>
-                <div className='team-member overflow-hidden group'>
+                className="md:col-span-4 fixed-lm:col-span-6 fixed-sm:col-span-6"
+                key={i}
+              >
+                <div className="team-member overflow-hidden group">
                   <div className={teamMemberImage}>
                     {/* <Link href='/about'> */}
                     <a>
@@ -31,8 +34,8 @@ function Team({ teamItems }) {
                         alt={teamItem?.title}
                         width={343}
                         height={409}
-                        layout='responsive'
-                        objectFit='contain'
+                        layout="responsive"
+                        objectFit="contain"
                         quality={70}
                         priority
                       />
@@ -71,15 +74,15 @@ function Team({ teamItems }) {
                       </ul>
                     </div> */}
                   </div>
-                  <div className='team-member-content pt-[25px] ml-8'>
+                  <div className="team-member-content pt-[25px] ml-8">
                     <h3>
-                      <Link href='/about'>
-                        <a className='transition-all hover:text-[#caac6b] text-[24px] leading-[31px]'>
+                      <Link href="/about">
+                        <a className="transition-all hover:text-[#caac6b] text-[24px] leading-[31px]">
                           {teamItem?.memberName}
                         </a>
                       </Link>
                     </h3>
-                    <span className='designation text-secondary leading-6 block text-[14px] mt-[5px]'>
+                    <span className="designation text-secondary leading-6 block text-[14px] mt-[5px]">
                       {teamItem?.designation}
                     </span>
                   </div>

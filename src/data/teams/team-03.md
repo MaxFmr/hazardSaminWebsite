@@ -1,10 +1,10 @@
 ---
 title: Team Member
-image: /images/team/p3.jpg
+image: /images/team/p4.jpg
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
-memberName: Gwendal FLORENCEAU
+memberName: Alexis BERTULU
 designation: Peintre hautement qualifié
 ---

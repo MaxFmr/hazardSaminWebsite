@@ -1,10 +1,10 @@
 ---
-title: peintre
-image: /images/team/p2.jpg
+title: Team Member
+image: /images/team/p3.jpg
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
-memberName: Maxime LEDROLE
+memberName: Gwendal FLORENCEAU
 designation: Peintre hautement qualifié
 ---
