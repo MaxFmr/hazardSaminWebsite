@@ -25,7 +25,7 @@ function AboutPage(props) {
       {/* <Services services={props.services} /> */}
       <Testimonial testimonialItems={props.testimonialItems} />
       {/* <Brand brandItems={props.brandItems} /> */}
-      <Team teamItems={props.teamItems} />
+      {/* <Team teamItems={props.teamItems} /> */}
     </Fragment>
   );
 }
