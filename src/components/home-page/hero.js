@@ -29,19 +29,20 @@ function Hero({ heroItems }) {
           return (
             <SwiperSlide className="hero-item" key={i}>
               <div className={heroImage}>
-                {/* <video
-                  playsinline='true'
-                  type='video/mp4'
+                <video
+                  playsinline="true"
+                  type="video/mp4"
                   playsInline
-                  src='https://www.maximekerlidou.fr/videos/videobanner.mp4'
+                  src="https://www.maximekerlidou.fr/videos/videobanner.mp4"
                   muted
                   loop
                   autoPlay
                   style={{
-                    height: '100%',
-                    objectFit: 'cover',
-                    width: '100%',
-                  }}></video> */}
+                    height: "100%",
+                    objectFit: "cover",
+                    width: "100%",
+                  }}
+                ></video>
                 <Image
                   src="/images/projects/1/0.jpg"
                   layout="fill"
