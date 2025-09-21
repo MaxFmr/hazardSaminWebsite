@@ -43,11 +43,11 @@ function Hero({ heroItems }) {
                     width: "100%",
                   }}
                 ></video>
-                <Image
+                {/* <Image
                   src="/images/projects/1/0.jpg"
                   layout="fill"
                   objectFit="cover"
-                />
+                /> */}
               </div>
 
               <div className="container custom-container">
